@@ -21,7 +21,7 @@ export default function FounderSection() {
               <p className="text-lg sm:text-xl md:text-2xl lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
                 Founder and owner of the Studio. A Certified Public Accountant registered in the Milan Register at no.
                 10641 Section A since 1991, and on the ICAEW register in London for the Commonwealth at n. 8767902. He has
-                specialized training with a Master's in Corporate Finance, is a startup expert, and serves as a Mentor on
+                specialized training with a Master&apos;Corporate Finance, is a startup expert, and serves as a Mentor on
                 behalf of university incubators and as a partner in investor associations.
               </p>
             </motion.div>
