@@ -114,7 +114,7 @@ export default function ServicesSection() {
               </CardHeader>
               <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
                 FOR PROFESSIONAL FIRMS<br />
-                Expand your offerings with high-level financial consulting services. Collaborate with us to integrate your range of services with our specialization in corporate finance and M&A operations, ensuring optimal management of your clients' financial needs.
+                Expand your offerings with high-level financial consulting services. Collaborate with us to integrate your range of services with our specialization in corporate finance and M&A operations, ensuring optimal management of your clients&apos; financial needs.
               </CardBody>
               <div className="flex justify-center">
                 <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">

@@ -6,7 +6,8 @@ import en from "../translations/en.json";
 import it from "../translations/it.json";
 
 type Language = "en" | "it";
-type Translations = Record<string, any>; // Allow deep object indexing
+type Translations = { [key: string]: string | Translations };
+
 type TranslationKey = string;
 
 interface LanguageContextType {
@@ -25,7 +26,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const t = useCallback(
     (key: TranslationKey): string => {
       const keys = key.split(".");
-      let value: any = translations[language];
+      let value: string | Translations = translations[language];
 
       for (const k of keys) {
         if (typeof value !== "object" || value === null || !(k in value)) {
