@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@heroui/react"; // Ensure this is corr
 
 export default function InfoSection() {
   return (
-    <div className="relative w-full min-h-screen flex flex-col justify-center items-center bg-white dark:bg-neutral-950 p-8 md:p-16">
+    <div className="relative w-full min-h-[70vh] flex flex-col justify-center items-center bg-white dark:bg-neutral-950 p-8 md:p-16">
       {/* Título de la sección */}
       <div className="text-center mb-16 z-10 relative">
         <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-6xl font-bold tracking-tighter">

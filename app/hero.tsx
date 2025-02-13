@@ -44,13 +44,13 @@ function FloatingPaths({ position }: { position: number }) {
 
 export default function Hero() {
   return (
-    <div className="relative min-h-[93vh] w-full flex items-center justify-center overflow-x-hidden overflow-y-visible bg-white dark:bg-neutral-950">
+    <div className="relative h-screen w-full flex items-center justify-center overflow-x-hidden overflow-y-visible bg-white dark:bg-neutral-950">
       <div className="absolute inset-0">
         <FloatingPaths position={1} />
         <FloatingPaths position={-1} />
       </div>
 
-      <div className="absolute top-[20%] w-full container mx-auto px-4 md:px-6 text-center">
+      <div className="absolute top-[10%] md:top-[20%] w-full container mx-auto px-4 md:px-6 text-center">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
