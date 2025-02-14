@@ -20,29 +20,45 @@ export default function InfoSection() {
       {/* Accordion con la información */}
       <Accordion selectionMode="multiple" className="w-full max-w-screen-xl mx-auto">
         {/* Experience and Specialization */}
-        <AccordionItem key="1" aria-label={t("infoSection.experienceAndSpecialization")} title={t("infoSection.experienceAndSpecialization")}>
-          <div>
+        <AccordionItem key="1" aria-label={t("infoSection.experienceAndSpecialization")} title={
+          <span className="text-xl font-bold tracking-tight text-neutral-900 dark:text-white">
+            {t("infoSection.experienceAndSpecialization")}
+          </span>
+        }>
+          <div className="text-neutral-800 dark:text-neutral-200">
             {t("infoSection.experienceDescription")}
           </div>
         </AccordionItem>
 
         {/* Network of Contacts */}
-        <AccordionItem key="2" aria-label={t("infoSection.networkOfContacts")} title={t("infoSection.networkOfContacts")}>
-          <div>
+        <AccordionItem key="2" aria-label={t("infoSection.networkOfContacts")} title={
+          <span className="text-xl font-bold tracking-tight text-neutral-900 dark:text-white">
+            {t("infoSection.networkOfContacts")}
+          </span>
+        }>
+          <div className="text-neutral-800 dark:text-neutral-200">
             {t("infoSection.networkDescription")}
           </div>
         </AccordionItem>
 
         {/* Customized Solutions */}
-        <AccordionItem key="3" aria-label={t("infoSection.customizedSolutions")} title={t("infoSection.customizedSolutions")}>
-          <div>
+        <AccordionItem key="3" aria-label={t("infoSection.customizedSolutions")} title={
+          <span className="text-xl font-bold tracking-tight text-neutral-900 dark:text-white">
+            {t("infoSection.customizedSolutions")}
+          </span>
+        }>
+          <div className="text-neutral-800 dark:text-neutral-200">
             {t("infoSection.customizedDescription")}
           </div>
         </AccordionItem>
 
         {/* Integrated Approach */}
-        <AccordionItem key="4" aria-label={t("infoSection.integratedApproach")} title={t("infoSection.integratedApproach")}>
-          <div>
+        <AccordionItem key="4" aria-label={t("infoSection.integratedApproach")} title={
+          <span className="text-xl font-bold tracking-tight text-neutral-900 dark:text-white">
+            {t("infoSection.integratedApproach")}
+          </span>
+        }>
+          <div className="text-neutral-800 dark:text-neutral-200">
             {t("infoSection.integratedDescription")}
           </div>
         </AccordionItem>
