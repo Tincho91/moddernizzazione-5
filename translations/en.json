@@ -5,5 +5,38 @@
     "studi_professionali": "Professional Studios",
     "modello_consulenza": "Consulting Model",
     "contatti": "Contacts"
+  },
+  "hero": {
+    "title": "STUDIO MAA",
+    "subtitle": "M&A and Capital Market",
+    "description1": "We guide companies, investors, and financial industry professionals to success through specialized advisory services in corporate finance, M&A, and investment strategies. With over 30 years of experience, we combine advanced skills and a broad network of contacts to offer customized solutions that turn visions into tangible realities.",
+    "description2": "Our services are delivered with a commitment to sustainability, incorporating fundamental ESG principles into our consulting to benefit companies, investors, and professionals."
+  },
+  "founder": {
+    "title": "Founder",
+    "name": "Maurizio Ansaldi Arena",
+    "description": "Founder and owner of the Studio. A Certified Public Accountant registered in the Milan Register at no. 10641 Section A since 1991, and on the ICAEW register in London for the Commonwealth at n. 8767902. He has specialized training with a Master's in Corporate Finance, is a startup expert, and serves as a Mentor on behalf of university incubators and as a partner in investor associations.",
+    "imageAlt": "Maurizio Ansaldi Arena"
+  },
+  "services": {
+    "title": "Consulting Services",
+    "consultingTitle": "Consulting Services",
+    "consultingDescription": "FOR COMPANIES AND STARTUPS\nTransform your startup into a recognized success. Thanks to our many years of experience, we offer strategic and financial consulting that lays the groundwork for sustainable growth and access to essential funding.",
+    "investorsTitle": "For Investors",
+    "investorsDescription": "Maximize the return on your investments with our specialized consulting in M&A and corporate investment strategies. We assist investors, funds, and private equity firms in identifying, evaluating, and capitalizing on investment opportunities with a tailored approach.",
+    "professionalFirmsTitle": "For Professional Firms",
+    "professionalFirmsDescription": "Expand your offerings with high-level financial consulting services. Collaborate with us to integrate your range of services with our specialization in corporate finance and M&A operations, ensuring optimal management of your clients' financial needs.",
+    "learnMore": "Learn More"
+  },
+  "infoSection": {
+    "title": "Why Choose Us",
+    "experienceAndSpecialization": "Experience and Specialization",
+    "experienceDescription": "We bring decades of specialized knowledge in corporate finance and M&A, equipping us to handle complex challenges with proficiency.",
+    "networkOfContacts": "Network of Contacts",
+    "networkDescription": "Our extensive network of industry contacts enables us to connect clients with pivotal resources and opportunities.",
+    "customizedSolutions": "Customized Solutions",
+    "customizedDescription": "We tailor our services to meet the unique needs of each client, ensuring that our solutions align perfectly with their objectives.",
+    "integratedApproach": "Integrated Approach",
+    "integratedDescription": "Our comprehensive approach integrates various aspects of financial services to provide cohesive and effective strategies."
   }
 }

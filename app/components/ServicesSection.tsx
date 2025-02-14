@@ -2,6 +2,7 @@
 
 import { Card, CardHeader, CardBody, Button } from "@heroui/react";
 import { motion } from "framer-motion";
+import { useLanguage } from "../LanguageContext";
 
 function FloatingPaths({ position }: { position: number }) {
   const paths = Array.from({ length: 20 }, (_, i) => ({
@@ -41,6 +42,8 @@ function FloatingPaths({ position }: { position: number }) {
 }
 
 export default function ServicesSection() {
+  const { t } = useLanguage();  // Acceder al hook para traducir los textos
+
   return (
     <div className="relative w-full min-h-screen flex justify-center items-center bg-white dark:bg-neutral-950 p-8 md:p-16">
       <div className="absolute inset-0 z-0">
@@ -52,14 +55,10 @@ export default function ServicesSection() {
       <div className="w-full max-w-screen-xl mx-auto">
         {/* Título de la sección */}
         <div className="text-center mb-16 z-10 relative">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 2 }}
-          >
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
             <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-6xl font-bold tracking-tighter">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-700/80 dark:from-white dark:to-white/80">
-                Consulting Services
+                {t("services.title")}
               </span>
             </h2>
           </motion.div>
@@ -73,16 +72,15 @@ export default function ServicesSection() {
             <Card className="p-6 md:p-3 bg-neutral-100 dark:bg-neutral-900 border border-neutral-900 dark:border-neutral-100 shadow-lg rounded-xl z-10">
               <CardHeader className="text-center">
                 <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-gray-700 dark:text-gray-300">
-                  Consulting Services
+                  {t("services.consultingTitle")}
                 </h3>
               </CardHeader>
               <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
-                FOR COMPANIES AND STARTUPS<br />
-                Transform your startup into a recognized success. Thanks to our many years of experience, we offer strategic and financial consulting that lays the groundwork for sustainable growth and access to essential funding.
+                {t("services.consultingDescription")}
               </CardBody>
               <div className="flex justify-center">
                 <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">
-                  Learn More
+                  {t("services.learnMore")}
                 </Button>
               </div>
             </Card>
@@ -91,16 +89,15 @@ export default function ServicesSection() {
             <Card className="p-6 md:p-3 bg-neutral-100 dark:bg-neutral-900 border border-neutral-900 dark:border-neutral-100 shadow-lg rounded-xl z-10">
               <CardHeader className="text-center">
                 <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-gray-700 dark:text-gray-300">
-                  For Investors
+                  {t("services.investorsTitle")}
                 </h3>
               </CardHeader>
               <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
-                FOR INVESTORS, FUNDS, AND PRIVATE EQUITY<br />
-                Maximize the return on your investments with our specialized consulting in M&A and corporate investment strategies. We assist investors, funds, and private equity firms in identifying, evaluating, and capitalizing on investment opportunities with a tailored approach.
+                {t("services.investorsDescription")}
               </CardBody>
               <div className="flex justify-center">
                 <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">
-                  Learn More
+                  {t("services.learnMore")}
                 </Button>
               </div>
             </Card>
@@ -109,16 +106,15 @@ export default function ServicesSection() {
             <Card className="p-6 md:p-3 bg-neutral-100 dark:bg-neutral-900 border border-neutral-900 dark:border-neutral-100 shadow-lg rounded-xl z-10">
               <CardHeader className="text-center">
                 <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-gray-700 dark:text-gray-300">
-                  For Professional Firms
+                  {t("services.professionalFirmsTitle")}
                 </h3>
               </CardHeader>
               <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
-                FOR PROFESSIONAL FIRMS<br />
-                Expand your offerings with high-level financial consulting services. Collaborate with us to integrate your range of services with our specialization in corporate finance and M&A operations, ensuring optimal management of your clients&apos; financial needs.
+                {t("services.professionalFirmsDescription")}
               </CardBody>
               <div className="flex justify-center">
                 <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">
-                  Learn More
+                  {t("services.learnMore")}
                 </Button>
               </div>
             </Card>

@@ -1,15 +1,18 @@
-"use client"
+"use client";
 
-import { Accordion, AccordionItem } from "@heroui/react"; // Ensure this is correctly imported
+import { Accordion, AccordionItem } from "@heroui/react";
+import { useLanguage } from "../LanguageContext";
 
 export default function InfoSection() {
+  const { t } = useLanguage();
+
   return (
     <div className="relative w-full min-h-[70vh] flex flex-col justify-center items-center bg-white dark:bg-neutral-950 p-8 md:p-16">
       {/* Título de la sección */}
       <div className="text-center mb-16 z-10 relative">
         <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-6xl font-bold tracking-tighter">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-700/80 dark:from-white dark:to-white/80">
-            Why Choose Us
+            {t("infoSection.title")}
           </span>
         </h2>
       </div>
@@ -17,30 +20,30 @@ export default function InfoSection() {
       {/* Accordion con la información */}
       <Accordion selectionMode="multiple" className="w-full max-w-screen-xl mx-auto">
         {/* Experience and Specialization */}
-        <AccordionItem key="1" aria-label="Experience and Specialization" title="Experience and Specialization">
+        <AccordionItem key="1" aria-label={t("infoSection.experienceAndSpecialization")} title={t("infoSection.experienceAndSpecialization")}>
           <div>
-            We bring decades of specialized knowledge in corporate finance and M&A, equipping us to handle complex challenges with proficiency.
+            {t("infoSection.experienceDescription")}
           </div>
         </AccordionItem>
 
         {/* Network of Contacts */}
-        <AccordionItem key="2" aria-label="Network of Contacts" title="Network of Contacts">
+        <AccordionItem key="2" aria-label={t("infoSection.networkOfContacts")} title={t("infoSection.networkOfContacts")}>
           <div>
-            Our extensive network of industry contacts enables us to connect clients with pivotal resources and opportunities.
+            {t("infoSection.networkDescription")}
           </div>
         </AccordionItem>
 
         {/* Customized Solutions */}
-        <AccordionItem key="3" aria-label="Customized Solutions" title="Customized Solutions">
+        <AccordionItem key="3" aria-label={t("infoSection.customizedSolutions")} title={t("infoSection.customizedSolutions")}>
           <div>
-            We tailor our services to meet the unique needs of each client, ensuring that our solutions align perfectly with their objectives.
+            {t("infoSection.customizedDescription")}
           </div>
         </AccordionItem>
 
         {/* Integrated Approach */}
-        <AccordionItem key="4" aria-label="Integrated Approach" title="Integrated Approach">
+        <AccordionItem key="4" aria-label={t("infoSection.integratedApproach")} title={t("infoSection.integratedApproach")}>
           <div>
-            Our comprehensive approach integrates various aspects of financial services to provide cohesive and effective strategies.
+            {t("infoSection.integratedDescription")}
           </div>
         </AccordionItem>
       </Accordion>

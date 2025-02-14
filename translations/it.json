@@ -5,5 +5,38 @@
     "studi_professionali": "Studi Professionali",
     "modello_consulenza": "Modello di Consulenza",
     "contatti": "Contatti"
+  },
+  "hero": {
+    "title": "STUDIO MAA",
+    "subtitle": "M&A e Mercato dei Capitali",
+    "description1": "Guidiamo aziende, investitori e professionisti del settore finanziario verso il successo attraverso servizi di consulenza specializzata in finanza aziendale, M&A e strategie di investimento. Con oltre 30 anni di esperienza, combiniamo competenze avanzate e una vasta rete di contatti per offrire soluzioni personalizzate che trasformano le visioni in realtà tangibili.",
+    "description2": "I nostri servizi vengono offerti con un impegno per la sostenibilità, incorporando principi ESG fondamentali nella nostra consulenza per il beneficio di aziende, investitori e professionisti."
+  },
+  "founder": {
+    "title": "Fondatore",
+    "name": "Maurizio Ansaldi Arena",
+    "description": "Fondatore e titolare dello Studio. Dottore Commercialista iscritto all'Albo di Milano al n. 10641 Sez. A dal 1991, e all'ICAEW di Londra per il Commonwealth al n. 8767902. Ha una formazione specialistica con un Master in Corporate Finance, è esperto di startup e svolge il ruolo di mentore per conto di incubatori universitari e partner di associazioni di investitori.",
+    "imageAlt": "Maurizio Ansaldi Arena"
+  },
+  "services": {
+    "title": "Servizi di consulenza",
+    "consultingTitle": "Servizi di consulenza",
+    "consultingDescription": "PER AZIENDE E STARTUP\nTrasforma la tua startup in un successo riconosciuto. Grazie alla nostra lunga esperienza, offriamo consulenza strategica e finanziaria che getta le basi per una crescita sostenibile e l'accesso a finanziamenti essenziali.",
+    "investorsTitle": "Per Investitori",
+    "investorsDescription": "Massimizza il ritorno sui tuoi investimenti con la nostra consulenza specializzata in M&A e strategie di investimento aziendale. Aiutiamo investitori, fondi e società di private equity a identificare, valutare e capitalizzare le opportunità di investimento con un approccio su misura.",
+    "professionalFirmsTitle": "Per Studi Professionali",
+    "professionalFirmsDescription": "Espandi la tua offerta con servizi di consulenza finanziaria di alto livello. Collabora con noi per integrare la tua gamma di servizi con la nostra specializzazione in finanza aziendale e operazioni di M&A, garantendo una gestione ottimale delle esigenze finanziarie dei tuoi clienti.",
+    "learnMore": "Scopri di più"
+  },
+  "infoSection": {
+    "title": "Perché scegliere noi",
+    "experienceAndSpecialization": "Esperienza e specializzazione",
+    "experienceDescription": "Portiamo decenni di conoscenze specializzate in finanza aziendale e M&A, preparandoci a gestire sfide complesse con competenza.",
+    "networkOfContacts": "Rete di contatti",
+    "networkDescription": "La nostra ampia rete di contatti nel settore ci consente di connettere i clienti con risorse e opportunità fondamentali.",
+    "customizedSolutions": "Soluzioni personalizzate",
+    "customizedDescription": "Adattiamo i nostri servizi per soddisfare le esigenze uniche di ogni cliente, assicurandoci che le nostre soluzioni siano perfettamente allineate con i loro obiettivi.",
+    "integratedApproach": "Approccio integrato",
+    "integratedDescription": "Il nostro approccio completo integra vari aspetti dei servizi finanziari per fornire strategie coese ed efficaci."
   }
 }
