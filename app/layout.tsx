@@ -23,7 +23,7 @@ export default function RootLayout({
       <body>
         <LanguageProvider>
           <HeroUIProvider>
-            <NextThemesProvider attribute="class" defaultTheme="dark">
+            <NextThemesProvider attribute="class" defaultTheme="light">
               <NavigationBar />
               {children}
               <Footer />
