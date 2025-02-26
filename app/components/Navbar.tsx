@@ -35,18 +35,18 @@ const MainNavbar: React.FC = () => {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} isBlurred>
+    <Navbar onMenuOpenChange={setIsMenuOpen} isBlurred className="bg-primary-light dark:bg-primary-dark">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className={`lg:hidden ${resolvedTheme === "light" ? "text-black" : "text-white"}`}
+          className={`lg:hidden ${resolvedTheme === "light" ? "text-textMain-light" : "text-textMain-dark"}`}
         />
         <NavbarBrand>
           {!mounted ? (
             <div style={{ width: 120, height: 36 }} />
           ) : (
             <img
-              src={resolvedTheme === "dark" ? "/logoMAA_light.png" : "/logoMAA_dark.png"}
+              src="/logoMAA_light.png"
               alt="Logo MMA"
               width={120}
               height={36}
@@ -58,7 +58,10 @@ const MainNavbar: React.FC = () => {
       <NavbarContent className="hidden lg:flex gap-4" justify="center">
         {menuItems.map(({ key, href }) => (
           <NavbarItem key={key}>
-            <Link color="foreground" href={href}>
+            <Link
+              className={`text-textMain-light dark:text-textMain-dark`}
+              href={href}
+            >
               {t(`navbar.${key}`)}
             </Link>
           </NavbarItem>
@@ -70,10 +73,10 @@ const MainNavbar: React.FC = () => {
         <LanguageSwitcher />
       </NavbarContent>
 
-      <NavbarMenu>
+      <NavbarMenu className={`lg:hidden ${resolvedTheme === "light" ? "bg-primary-light" : "bg-primary-dark"}`}>
         {menuItems.map(({ key, href }) => (
           <NavbarMenuItem key={key}>
-            <Link className="w-full" color="foreground" href={href} size="lg">
+            <Link className="w-full text-textMain-light dark:text-textMain-dark" href={href} size="lg">
               {t(`navbar.${key}`)}
             </Link>
           </NavbarMenuItem>

@@ -42,10 +42,10 @@ function FloatingPaths({ position }: { position: number }) {
 }
 
 export default function ServicesSection() {
-  const { t } = useLanguage();  // Acceder al hook para traducir los textos
+  const { t } = useLanguage(); // Acceder al hook para traducir los textos
 
   return (
-    <div className="relative w-full min-h-screen flex justify-center items-center bg-white dark:bg-neutral-950 p-8 md:p-16">
+    <div className="relative w-full min-h-screen flex justify-center items-center bg-primary-light dark:bg-primary-dark p-8 md:p-16">
       <div className="absolute inset-0 z-0">
         <FloatingPaths position={1} />
         <FloatingPaths position={-1} />
@@ -57,7 +57,7 @@ export default function ServicesSection() {
         <div className="text-center mb-16 z-10 relative">
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }}>
             <h2 className="text-5xl sm:text-7xl md:text-8xl lg:text-6xl font-bold tracking-tighter">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-700/80 dark:from-white dark:to-white/80">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70 dark:from-white dark:to-white/80">
                 {t("services.title")}
               </span>
             </h2>
@@ -69,51 +69,51 @@ export default function ServicesSection() {
           {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
             {/* Consulting Services Card */}
-            <Card className="p-6 md:p-3 bg-neutral-100 dark:bg-neutral-900 border border-neutral-900 dark:border-neutral-100 shadow-lg rounded-xl z-10">
+            <Card className="p-6 md:p-3 bg-secondary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl z-10">
               <CardHeader className="text-center">
-                <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-gray-700 dark:text-gray-300">
+                <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark">
                   {t("services.consultingTitle")}
                 </h3>
               </CardHeader>
-              <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
+              <CardBody className="text-black dark:text-textSubtle-dark text-lg leading-relaxed mb-4">
                 {t("services.consultingDescription")}
               </CardBody>
               <div className="flex justify-center">
-                <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">
+                <Button className="bg-primary-light dark:bg-primary-dark text-white py-2 px-4">
                   {t("services.learnMore")}
                 </Button>
               </div>
             </Card>
 
             {/* For Investors Card */}
-            <Card className="p-6 md:p-3 bg-neutral-100 dark:bg-neutral-900 border border-neutral-900 dark:border-neutral-100 shadow-lg rounded-xl z-10">
+            <Card className="p-6 md:p-3 bg-secondary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl z-10">
               <CardHeader className="text-center">
-                <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-gray-700 dark:text-gray-300">
+                <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark">
                   {t("services.investorsTitle")}
                 </h3>
               </CardHeader>
-              <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
+              <CardBody className="text-black dark:text-textSubtle-dark text-lg leading-relaxed mb-4">
                 {t("services.investorsDescription")}
               </CardBody>
               <div className="flex justify-center">
-                <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">
+                <Button className="bg-primary-light dark:bg-primary-dark text-white py-2 px-4">
                   {t("services.learnMore")}
                 </Button>
               </div>
             </Card>
 
             {/* Professional Firms Card */}
-            <Card className="p-6 md:p-3 bg-neutral-100 dark:bg-neutral-900 border border-neutral-900 dark:border-neutral-100 shadow-lg rounded-xl z-10">
+            <Card className="p-6 md:p-3 bg-secondary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl z-10">
               <CardHeader className="text-center">
-                <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-gray-700 dark:text-gray-300">
+                <h3 className="text-3xl sm:text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark">
                   {t("services.professionalFirmsTitle")}
                 </h3>
               </CardHeader>
-              <CardBody className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-4">
+              <CardBody className="text-black dark:text-textSubtle-dark text-lg leading-relaxed mb-4">
                 {t("services.professionalFirmsDescription")}
               </CardBody>
               <div className="flex justify-center">
-                <Button className="bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 py-2 px-4 rounded-md">
+                <Button className="bg-primary-light dark:bg-primary-dark text-white py-2 px-4">
                   {t("services.learnMore")}
                 </Button>
               </div>

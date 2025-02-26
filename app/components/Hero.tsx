@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useLanguage } from "./LanguageContext";
+import { useLanguage } from "../LanguageContext";
 
 function FloatingPaths({ position }: { position: number }) {
   const paths = Array.from({ length: 20 }, (_, i) => ({
@@ -13,7 +13,7 @@ function FloatingPaths({ position }: { position: number }) {
 
   return (
     <div className="absolute inset-0 pointer-events-none">
-      <svg className="w-full h-full text-slate-950 dark:text-white" viewBox="0 0 696 316" fill="none">
+      <svg className="w-full h-full text-white" viewBox="0 0 696 316" fill="none">
         <title>Background Paths</title>
         {paths.map((path) => (
           <motion.path
@@ -44,7 +44,7 @@ export default function Hero() {
   const { t } = useLanguage();
 
   return (
-    <div className="relative h-screen w-full flex items-center justify-center overflow-x-hidden overflow-y-visible bg-white dark:bg-neutral-950">
+    <div className="relative h-screen w-full flex items-center justify-center overflow-x-hidden overflow-y-visible bg-primary-light dark:bg-primary-dark">
       <div className="absolute inset-0">
         <FloatingPaths position={1} />
         <FloatingPaths position={-1} />
@@ -58,20 +58,20 @@ export default function Hero() {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold mb-6 tracking-tighter">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-900 to-neutral-700/80 dark:from-white dark:to-white/80">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/70 dark:from-white dark:to-white/80">
               {t("hero.title")}
             </span>
           </h1>
 
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-medium mb-6 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-medium mb-6 text-textMain-light dark:text-textMain-dark">
             {t("hero.subtitle")}
           </h2>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl md:text-2xl text-textSubtle-light dark:text-textSubtle-dark leading-relaxed max-w-3xl mx-auto">
             {t("hero.description1")}
           </p>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto mt-4">
+          <p className="text-lg sm:text-xl md:text-2xl text-textSubtle-light dark:text-textSubtle-dark leading-relaxed max-w-3xl mx-auto mt-4">
             {t("hero.description2")}
           </p>
         </motion.div>
