@@ -27,7 +27,7 @@ const MainNavbar: React.FC = () => {
   }, []);
 
   const menuItems = [
-    { key: "startup", href: "#" },
+    { key: "startup", href: "/startup" },
     { key: "investitori", href: "#" },
     { key: "studi_professionali", href: "#" },
     { key: "modello_consulenza", href: "#" },
