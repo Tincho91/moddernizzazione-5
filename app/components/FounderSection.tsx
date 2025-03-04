@@ -30,6 +30,7 @@ export default function FounderSection() {
           <CardBody className="flex justify-center my-auto md:justify-start md:w-1/2 lg:ml-12">
             <Image
               src="/founder.jpg"
+              //@ts-expect-error -----TO UPDATE-----
               alt={t("founder.imageAlt")}
               className="rounded-lg object-cover w-full h-64 md:h-auto mx-auto"
             />
