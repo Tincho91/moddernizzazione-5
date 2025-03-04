@@ -38,5 +38,58 @@
     "customizedDescription": "We tailor our services to meet the unique needs of each client, ensuring that our solutions align perfectly with their objectives.",
     "integratedApproach": "Integrated Approach",
     "integratedDescription": "Our comprehensive approach integrates various aspects of financial services to provide cohesive and effective strategies."
+  },
+  "startupHero": {
+    "title": "MAA for STARTUPS and BUSINESSES",
+    "subtitle": "Transform Your Startup into a Recognized Success.",
+    "description1": "With over 30 years of experience in business creation, our professional firm guides startups to success using the most advanced tools in managerial techniques and strategy.",
+    "description2": "Specializing in optimal positioning for funding acquisition, whether through equity from venture capitalists and business angels or through conventional or subsidized finance, we offer tailor-made solutions that stand out for their high specialization. Our expertise is the result of extensive experience in key roles such as mentorship, project management, evaluations, consulting, and investments as a business angel.",
+    "description3": "We are partners with prestigious Italian and international associations, ready to provide you with a network of contacts and deep industry knowledge to launch your startup towards new horizons of success."
+  },
+  "callToAction": {
+    "text1": "Join the startups that have found the ideal partner in our firm to navigate the complex world of corporate finance.",
+    "text2": "Contact us today to discover how we can transform your vision into reality.",
+    "text3": "Ready to Propel Your Startup?",
+    "text4": "Learn how our specialized approach can unlock new funding and growth opportunities for your project.",
+    "button": "YES, I WANT A CONSULTATION"
+  },
+  "StartupTabs": {
+    "title": "OUR PLUSES+ for Startups and Businesses",
+    "startupLegalTitle": "Startup Legal Setup",
+    "startupLegalDescription": [
+      "Choosing the Right Business Structure: Assistance in selecting the most suitable legal structure for your startup, considering tax aspects, legal liability, and capital requirements.",
+      "Drafting of Key Documents: Preparation of corporate bylaws, shareholders' agreements, and other essential legal documents to regulate relationships between founders, investors, and other stakeholders (LOI and MOU).",
+      "Compliance and Regulations: Guidance through the complex landscape of industry-specific regulations, including data protection requirements (GDPR), intellectual property rights, and necessary licenses.",
+      "Consultation on Non-Disclosure Agreements (NDA): Creation of non-disclosure agreements to protect your ideas and technologies during negotiations with potential partners and investors.",
+      "Support in Funding Phases: Assistance in drafting investment agreements and negotiating legal terms with venture capitalists, business angels, and other funding sources."
+    ],
+    "financialStrategyTitle": "Financial Strategy & Evaluation",
+    "financialStrategyDescription": [
+      "Detailed financial analysis.",
+      "Development of tailored financial strategies.",
+      "Planning for access to funding.",
+      "Business Plan."
+    ],
+    "fundraisingSupportTitle": "Fundraising Support",
+    "fundraisingSupportDescription": [
+      "Preparation for funding rounds.",
+      "Presentation to venture capitalists and business angels.",
+      "Assistance in negotiating terms and agreements (Termsheet)."
+    ],
+    "capitalStructureTitle": "Capital Structure Optimization",
+    "capitalStructureDescription": [
+      "Analysis and consultancy on the ideal capital structure.",
+      "Equity and debt financing strategies."
+    ],
+    "growthScalingTitle": "Growth & Scalability",
+    "growthScalingDescription": [
+      "Strategic planning for growth.",
+      "Consultancy on scalability and market expansion."
+    ],
+    "innovationDevelopmentTitle": "Innovation & New Product Development",
+    "innovationDevelopmentDescription": [
+      "Support in innovation management.",
+      "Strategies for the development and launch of new products."
+    ]
   }
 }

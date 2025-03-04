@@ -28,10 +28,10 @@ const MainNavbar: React.FC = () => {
 
   const menuItems = [
     { key: "startup", href: "/startup" },
-    { key: "investitori", href: "#" },
-    { key: "studi_professionali", href: "#" },
-    { key: "modello_consulenza", href: "#" },
-    { key: "contatti", href: "#" },
+    { key: "investitori", href: "/investors" },
+    { key: "studi_professionali", href: "/professional-advisors" },
+    { key: "modello_consulenza", href: "/business-model" },
+    { key: "contatti", href: "/contact" },
   ];
 
   return (
@@ -45,12 +45,14 @@ const MainNavbar: React.FC = () => {
           {!mounted ? (
             <div style={{ width: 120, height: 36 }} />
           ) : (
-            <img
-              src="/logoMAA_light.png"
-              alt="Logo MMA"
-              width={120}
-              height={36}
-            />
+            <Link href="/">
+              <img
+                src="/logoMAA_light.png"
+                alt="Logo MMA"
+                width={120}
+                height={36}
+              />
+            </Link>
           )}
         </NavbarBrand>
       </NavbarContent>

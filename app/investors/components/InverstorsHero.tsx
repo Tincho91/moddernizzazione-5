@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/app/LanguageContext";
 
-export default function StartupHero() {
+export default function InvestorsHero() {
   const { t } = useLanguage();
 
   return (
@@ -25,7 +25,7 @@ export default function StartupHero() {
           transition={{ duration: 2 }}
           className="text-4xl sm:text-6xl md:text-7xl font-bold mb-10 lg:mb-24 text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark"
         >
-          {t("startupHero.title")}
+          {t("investorsHero.title")}
         </motion.h1>
 
         <motion.h2
@@ -34,7 +34,7 @@ export default function StartupHero() {
           transition={{ duration: 2, delay: 0.2 }}
           className="text-lg sm:text-xl md:text-2xl font-bold mb-5"
         >
-          {t("startupHero.subtitle")}
+          {t("investorsHero.subtitle")}
         </motion.h2>
 
         <motion.p
@@ -43,7 +43,7 @@ export default function StartupHero() {
           transition={{ duration: 2, delay: 0.4 }}
           className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
         >
-          {t("startupHero.description1")}
+          {t("investorsHero.description1")}
         </motion.p>
 
         <motion.p
@@ -52,7 +52,7 @@ export default function StartupHero() {
           transition={{ duration: 2, delay: 0.6 }}
           className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
         >
-          {t("startupHero.description2")}
+          {t("investorsHero.description2")}
         </motion.p>
 
         <motion.p
@@ -61,7 +61,7 @@ export default function StartupHero() {
           transition={{ duration: 2, delay: 0.8 }}
           className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
         >
-          {t("startupHero.description3")}
+          {t("investorsHero.description3")}
         </motion.p>
       </div>
     </div>

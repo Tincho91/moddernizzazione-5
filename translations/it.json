@@ -38,5 +38,64 @@
     "customizedDescription": "Adattiamo i nostri servizi per soddisfare le esigenze uniche di ogni cliente, assicurandoci che le nostre soluzioni siano perfettamente allineate con i loro obiettivi.",
     "integratedApproach": "Approccio integrato",
     "integratedDescription": "Il nostro approccio completo integra vari aspetti dei servizi finanziari per fornire strategie coese ed efficaci."
-  }
+  },
+  "startupHero": {
+    "title": "MAA per le STARTUP e le IMPRESE",
+    "subtitle": "Trasforma la Tua Startup in un successo riconosciuto.",
+    "description1": "Con oltre 30 anni di esperienza nella creazione di impresa, il nostro studio professionale guida le startup verso il successo utilizzando gli strumenti più avanzati di tecnica manageriale e strategia.",
+    "description2": "Specializzati nel posizionamento ottimale per l’acquisizione di finanziamenti, sia attraverso equity da venture capitalist e business angels che mediante finanza ordinaria o agevolata, offriamo soluzioni su misura che si distinguono per la loro elevata specializzazione. La nostra expertise è frutto di un’ampia esperienza maturata in ruoli chiave come mentorship, project management, valutatezioni, consulenza ed investimenti come business angel.",
+    "description3": "Siamo partner di prestigiose associazioni italiane ed internazionali, pronti a mettere a tua disposizione una rete di contatti e una profonda conoscenza del settore per lanciare la tua startup verso nuovi orizzonti di successo."
+  },
+  "callToAction": {
+    "text1": "Unisciti alle startup che hanno trovato nel nostro studio il partner ideale per navigare il complesso mondo della finanza d’impresa.",
+    "text2": "Contattaci oggi per scoprire come possiamo trasformare la tua visione in realtà.",
+    "text3": "Pronto a Dare Slancio alla Tua Startup?",
+    "text4": "Scopri come il nostro approccio specializzato può sbloccare nuove opportunità di finanziamento e crescita per il tuo progetto.",
+    "button": "SI, VOGLIO UNA CONSULENZA"
+  },
+  "StartupTabs": {
+  "title": "I NOSTRI PLUS+ per Startup e Imprese",
+  "startupLegalTitle": "Configurazione Legale della Startup",
+  "startupLegalDescription": [
+    "Scelta della Struttura Aziendale: Assistenza nella selezione della struttura giuridica più adatta per la tua startup, considerando aspetti fiscali, responsabilità legale e requisiti di capitale.",
+    "Redazione di Documenti Chiave: Preparazione di statuti aziendali, accordi tra soci e altri documenti legali essenziali per regolare i rapporti tra fondatori, investitori e altri stakeholder (LOI e MOU).",
+    "Conformità e Regolamenti: Guida attraverso il complesso panorama delle normative settoriali, inclusi requisiti di protezione dei dati (GDPR), diritti di proprietà intellettuale e licenze necessarie.",
+    "Consulenza su Accordi di Riservatezza (NDA): Creazione di accordi di non divulgazione per proteggere le tue idee e tecnologie durante le negoziazioni con potenziali partner e investitori.",
+    "Supporto nelle Fasi di Finanziamento: Assistenza nella redazione di accordi di investimento e nella negoziazione dei termini legali con venture capitalist, business angel e altre fonti di finanziamento."
+  ],
+
+  "financialStrategyTitle": "Valutazione e Strategia Finanziaria",
+  "financialStrategyDescription": [
+    "Analisi finanziaria dettagliata.",
+    "Sviluppo di strategie finanziarie su misura.",
+    "Pianificazione per l’accesso a finanziamenti.",
+    "Business Plan."
+  ],
+
+  "fundraisingSupportTitle": "Supporto alla Raccolta Fondi",
+  "fundraisingSupportDescription": [
+    "Preparazione per round di finanziamento.",
+    "Presentazione a venture capitalist e business angel.",
+    "Assistenza nella negoziazione di termini e accordi (Termsheet)."
+  ],
+
+  "capitalStructureTitle": "Ottimizzazione della Struttura del Capitale",
+  "capitalStructureDescription": [
+    "Analisi e consulenza sulla struttura del capitale ideale.",
+    "Strategie di finanziamento equity e debito."
+  ],
+
+  "growthScalingTitle": "Crescita e Scalabilità",
+  "growthScalingDescription": [
+    "Pianificazione strategica per la crescita.",
+    "Consulenza su scalabilità ed espansione del mercato."
+  ],
+
+  "innovationDevelopmentTitle": "Innovazione e Sviluppo di Nuovi Prodotti",
+  "innovationDevelopmentDescription": [
+    "Supporto nella gestione dell’innovazione.",
+    "Strategie per lo sviluppo e il lancio di nuovi prodotti."
+  ]
+}
+
 }

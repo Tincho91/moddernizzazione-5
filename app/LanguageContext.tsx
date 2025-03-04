@@ -6,14 +6,16 @@ import en from "../translations/en.json";
 import it from "../translations/it.json";
 
 type Language = "en" | "it";
-type Translations = { [key: string]: string | Translations };
+type Translations = { [key: string]: string | Translations | StringArray };
+
+type StringArray = string[];
 
 type TranslationKey = string;
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
-  t: (key: TranslationKey) => string;
+  t: (key: TranslationKey) => string | string[];
 }
 
 const translations: Record<Language, Translations> = { en, it };
@@ -24,18 +26,23 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [language, setLanguage] = useState<Language>("it");
 
   const t = useCallback(
-    (key: TranslationKey): string => {
+    (key: TranslationKey): string | string[] => {
       const keys = key.split(".");
-      let value: string | Translations = translations[language];
+      let value: string | Translations | StringArray = translations[language];
 
       for (const k of keys) {
-        if (typeof value !== "object" || value === null || !(k in value)) {
+        if (typeof value === "object" && value !== null && !(k in value)) {
           return key; // Return key if translation not found
         }
-        value = value[k];
+
+        if (typeof value === "object" && !Array.isArray(value)) {
+          value = value[k]; // Only index if value is an object
+        } else {
+          return key; // Return key if value is not an object or array
+        }
       }
 
-      return typeof value === "string" ? value : key;
+      return Array.isArray(value) ? value : (typeof value === "string" ? value : key);
     },
     [language]
   );
