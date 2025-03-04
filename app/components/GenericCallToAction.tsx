@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Card, CardHeader, CardBody, Button } from "@heroui/react";
 
 interface CallToActionProps {
-  titleKey: string;
+  titleKey?: string;
   textKeys: string[];
   buttonKey: string;
 }
@@ -29,9 +29,11 @@ const CallToAction = ({ titleKey, textKeys, buttonKey }: CallToActionProps) => {
               </p>
             ))}
 
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark">
-              {t(titleKey)}
-            </h2>
+            {titleKey && (
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark">
+                {t(titleKey)}
+              </h2>
+            )}
           </motion.div>
         </CardHeader>
 

@@ -91,5 +91,23 @@
       "Support in innovation management.",
       "Strategies for the development and launch of new products."
     ]
+  },
+  "startupSection": {
+    "title": "Why Choose Us?",
+    "experienceAndSpecialization": "Proven Experience",
+    "experienceDescription": "Over three decades of success in the field of business creation and development.",
+    "networkOfContacts": "Network of Contacts",
+    "networkDescription": "Effective strategies for a winning positioning, essential for securing significant funding.",
+    "customizedSolutions": "Specialized Approach",
+    "customizedDescription": "Highly specialized services, designed for the unique needs of innovative startups.",
+    "integratedApproach": "Tangible Results",
+    "integratedDescription": "Exclusive access to a network of financiers, including venture capitalists, business angels, and sources of subsidized finance."
+  },
+  "startupCallToAction": {
+    "visionTitle": "Transform Your Vision into Success",
+    "financialChallenges": "Don’t let financial challenges hinder the potential of your business.",
+    "strategicSolutions": "Discover how our firm can guide you towards strategic solutions tailored for your success.",
+    "contactPrompt": "Contact us today for an initial consultation.",
+    "contactButton": "I WANT TO CONTACT THE FIRM"
   }
 }

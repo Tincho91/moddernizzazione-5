@@ -7,23 +7,23 @@ export default function StartupAccordion() {
   return (
         <div>
           <GenericAccordion
-            titleKey="investorsSection.title"
+            titleKey="startupSection.title"
             items={[
               {
-                labelKey: "investorsSection.experienceAndSpecialization",
-                descriptionKey: "investorsSection.experienceDescription"
+                labelKey: "startupSection.experienceAndSpecialization",
+                descriptionKey: "startupSection.experienceDescription"
               },
               {
-                labelKey: "investorsSection.networkOfContacts",
-                descriptionKey: "investorsSection.networkDescription"
+                labelKey: "startupSection.networkOfContacts",
+                descriptionKey: "startupSection.networkDescription"
               },
               {
-                labelKey: "investorsSection.customizedSolutions",
-                descriptionKey: "investorsSection.customizedDescription"
+                labelKey: "startupSection.customizedSolutions",
+                descriptionKey: "startupSection.customizedDescription"
               },
               {
-                labelKey: "investorsSection.integratedApproach",
-                descriptionKey: "investorsSection.integratedDescription"
+                labelKey: "startupSection.integratedApproach",
+                descriptionKey: "startupSection.integratedDescription"
               }
             ]}
           />

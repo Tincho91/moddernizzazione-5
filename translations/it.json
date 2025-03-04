@@ -54,48 +54,60 @@
     "button": "SI, VOGLIO UNA CONSULENZA"
   },
   "StartupTabs": {
-  "title": "I NOSTRI PLUS+ per Startup e Imprese",
-  "startupLegalTitle": "Configurazione Legale della Startup",
-  "startupLegalDescription": [
-    "Scelta della Struttura Aziendale: Assistenza nella selezione della struttura giuridica più adatta per la tua startup, considerando aspetti fiscali, responsabilità legale e requisiti di capitale.",
-    "Redazione di Documenti Chiave: Preparazione di statuti aziendali, accordi tra soci e altri documenti legali essenziali per regolare i rapporti tra fondatori, investitori e altri stakeholder (LOI e MOU).",
-    "Conformità e Regolamenti: Guida attraverso il complesso panorama delle normative settoriali, inclusi requisiti di protezione dei dati (GDPR), diritti di proprietà intellettuale e licenze necessarie.",
-    "Consulenza su Accordi di Riservatezza (NDA): Creazione di accordi di non divulgazione per proteggere le tue idee e tecnologie durante le negoziazioni con potenziali partner e investitori.",
-    "Supporto nelle Fasi di Finanziamento: Assistenza nella redazione di accordi di investimento e nella negoziazione dei termini legali con venture capitalist, business angel e altre fonti di finanziamento."
-  ],
-
-  "financialStrategyTitle": "Valutazione e Strategia Finanziaria",
-  "financialStrategyDescription": [
-    "Analisi finanziaria dettagliata.",
-    "Sviluppo di strategie finanziarie su misura.",
-    "Pianificazione per l’accesso a finanziamenti.",
-    "Business Plan."
-  ],
-
-  "fundraisingSupportTitle": "Supporto alla Raccolta Fondi",
-  "fundraisingSupportDescription": [
-    "Preparazione per round di finanziamento.",
-    "Presentazione a venture capitalist e business angel.",
-    "Assistenza nella negoziazione di termini e accordi (Termsheet)."
-  ],
-
-  "capitalStructureTitle": "Ottimizzazione della Struttura del Capitale",
-  "capitalStructureDescription": [
-    "Analisi e consulenza sulla struttura del capitale ideale.",
-    "Strategie di finanziamento equity e debito."
-  ],
-
-  "growthScalingTitle": "Crescita e Scalabilità",
-  "growthScalingDescription": [
-    "Pianificazione strategica per la crescita.",
-    "Consulenza su scalabilità ed espansione del mercato."
-  ],
-
-  "innovationDevelopmentTitle": "Innovazione e Sviluppo di Nuovi Prodotti",
-  "innovationDevelopmentDescription": [
-    "Supporto nella gestione dell’innovazione.",
-    "Strategie per lo sviluppo e il lancio di nuovi prodotti."
-  ]
-}
-
+    "title": "I NOSTRI PLUS+ per Startup e Imprese",
+    "startupLegalTitle": "Configurazione Legale della Startup",
+    "startupLegalDescription": [
+      "Scelta della Struttura Aziendale: Assistenza nella selezione della struttura giuridica più adatta per la tua startup, considerando aspetti fiscali, responsabilità legale e requisiti di capitale.",
+      "Redazione di Documenti Chiave: Preparazione di statuti aziendali, accordi tra soci e altri documenti legali essenziali per regolare i rapporti tra fondatori, investitori e altri stakeholder (LOI e MOU).",
+      "Conformità e Regolamenti: Guida attraverso il complesso panorama delle normative settoriali, inclusi requisiti di protezione dei dati (GDPR), diritti di proprietà intellettuale e licenze necessarie.",
+      "Consulenza su Accordi di Riservatezza (NDA): Creazione di accordi di non divulgazione per proteggere le tue idee e tecnologie durante le negoziazioni con potenziali partner e investitori.",
+      "Supporto nelle Fasi di Finanziamento: Assistenza nella redazione di accordi di investimento e nella negoziazione dei termini legali con venture capitalist, business angel e altre fonti di finanziamento."
+    ],
+    "financialStrategyTitle": "Valutazione e Strategia Finanziaria",
+    "financialStrategyDescription": [
+      "Analisi finanziaria dettagliata.",
+      "Sviluppo di strategie finanziarie su misura.",
+      "Pianificazione per l’accesso a finanziamenti.",
+      "Business Plan."
+    ],
+    "fundraisingSupportTitle": "Supporto alla Raccolta Fondi",
+    "fundraisingSupportDescription": [
+      "Preparazione per round di finanziamento.",
+      "Presentazione a venture capitalist e business angel.",
+      "Assistenza nella negoziazione di termini e accordi (Termsheet)."
+    ],
+    "capitalStructureTitle": "Ottimizzazione della Struttura del Capitale",
+    "capitalStructureDescription": [
+      "Analisi e consulenza sulla struttura del capitale ideale.",
+      "Strategie di finanziamento equity e debito."
+    ],
+    "growthScalingTitle": "Crescita e Scalabilità",
+    "growthScalingDescription": [
+      "Pianificazione strategica per la crescita.",
+      "Consulenza su scalabilità ed espansione del mercato."
+    ],
+    "innovationDevelopmentTitle": "Innovazione e Sviluppo di Nuovi Prodotti",
+    "innovationDevelopmentDescription": [
+      "Supporto nella gestione dell’innovazione.",
+      "Strategie per lo sviluppo e il lancio di nuovi prodotti."
+    ]
+  },
+  "startupSection": {
+    "title": "Perché Sceglierci?",
+    "experienceAndSpecialization": "Esperienza Provata",
+    "experienceDescription": "Oltre tre decenni di successi nel campo della creazione e dello sviluppo di imprese.",
+    "networkOfContacts": "Rete di Contatti",
+    "networkDescription": "Strategie efficaci per un posizionamento vincente, essenziale per ottenere finanziamenti significativi.",
+    "customizedSolutions": "Approccio Specializzato",
+    "customizedDescription": "Servizi altamente specializzati, progettati per le esigenze uniche delle startup innovative.",
+    "integratedApproach": "Risultati Tangibili",
+    "integratedDescription": "Accesso esclusivo a una rete di finanziatori, tra cui venture capitalist, business angel e fonti di finanziamento agevolato."
+  },
+  "startupCallToAction": {
+    "visionTitle": "Trasforma la tua visione in successo",
+    "financialChallenges": "Non lasciare che le sfide finanziarie ostacolino il potenziale della tua impresa.",
+    "strategicSolutions": "Scopri come il nostro studio può guidarti verso soluzioni strategiche su misura per il tuo successo.",
+    "contactPrompt": "Contattaci oggi per una consulenza iniziale.",
+    "contactButton": "VOGLIO CONTATTARE LO STUDIO"
+  }
 }

@@ -5,6 +5,7 @@ import StartupHero from './components/StartupHero'
 import StartupAccordion from './components/StartupAccordion';
 import StartupCallToAction from './components/StartupCallToAction';
 import ServiceTabs from './components/StartupTabs';
+import StartupCallToAction2 from './components/StartupCallToAction2';
 
 
 const page = () => {
@@ -14,6 +15,7 @@ const page = () => {
       <StartupAccordion />
       <StartupCallToAction />
       <ServiceTabs />
+      <StartupCallToAction2 />
     </>
   )
 }
