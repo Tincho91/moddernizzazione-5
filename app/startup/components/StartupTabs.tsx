@@ -1,10 +1,8 @@
 "use client";
 
-import { useLanguage } from "@/app/LanguageContext";
 import GenericTabs from "@/app/components/GenericTabs";
 
 export default function StartupTabs() {
-  const { t } = useLanguage();
 
   const tabs = [
     {
