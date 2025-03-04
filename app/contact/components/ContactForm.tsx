@@ -88,7 +88,7 @@ export default function ContactForm() {
     <Form
       className="w-full max-w-md min-h-[85vh] space-y-4"
       onSubmit={handleSubmit}
-      // @ts-expect-error
+      // @ts-expect-error -------TO UPDATE-------
       validationErrors={errors}  // Pasa los errores validados (ahora compatibles con HeroUI)
     >
       <div className="flex flex-col gap-4">
