@@ -2,7 +2,7 @@
 
 import React from 'react'
 import StartupHero from './components/StartupHero'
-import StartupInfoSection from './components/StartupInfoSection';
+import StartupAccordion from './components/StartupAccordion';
 import StartupCallToAction from './components/StartupCallToAction';
 import ServiceTabs from './components/StartupTabs';
 
@@ -11,7 +11,7 @@ const page = () => {
   return (
     <>
       <StartupHero />
-      <StartupInfoSection />
+      <StartupAccordion />
       <StartupCallToAction />
       <ServiceTabs />
     </>
