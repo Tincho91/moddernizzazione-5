@@ -109,5 +109,78 @@
     "strategicSolutions": "Scopri come il nostro studio può guidarti verso soluzioni strategiche su misura per il tuo successo.",
     "contactPrompt": "Contattaci oggi per una consulenza iniziale.",
     "contactButton": "VOGLIO CONTATTARE LO STUDIO"
+  },
+  "startupInvestorsHero": {
+    "title": "MAA per INVESTITORI, FONDI e PRIVATE EQUITY",
+    "subtitle": "Potenziate il Vostro Portfolio di Investimenti con Startup di Successo.",
+    "description1": "Nel dinamico mondo delle startup e delle PMI, identificare le gemme nascoste richiede una visione esperta e una profonda comprensione del mercato.",
+    "description2": "Con oltre 30 anni di esperienza nella creazione e sviluppo d’impresa, il nostro studio professionale offre ai Venture Capitalist, Business Angel e istituti bancari un servizio ineguagliabile per scovare e valutare le opportunità di investimento più promettenti.",
+    "description3": "Grazie alla nostra specializzazione e a un solido network di contatti nel settore, siamo in grado di fornire un’analisi dettagliata e accurata delle potenziali startup e PMI, assicurando che il vostro investimento sia indirizzato verso imprese con un reale potenziale di crescita e successo."
+  },
+  "investorsAccordion": {
+    "title": "Perchè collaborare con noi?",
+    "experienceAndSpecialization": "Esperienza e Specializzazione",
+    "experienceDescription": "Tre decenni di successi e un approccio altamente specializzato nell’ambito della finanza d’impresa.",
+    "qualitySelection": "Selezione di Qualità",
+    "qualityDescription": "Accedete a una curata selezione di startup e PMI con alto potenziale, pre-valutate attraverso criteri rigorosi.",
+    "strategicSupport": "Supporto Strategico",
+    "strategicDescription": "Offriamo consulenza strategica e supporto manageriale per massimizzare il rendimento degli investimenti.",
+    "extensiveNetwork": "Rete Estesa",
+    "networkDescription": "Beneficiate della nostra vasta rete di contatti nel mondo delle startup, delle PMI e degli investitori."
+  },
+  "investorsCallToAction": {
+    "title": "Investite nel futuro con fiducia",
+    "text1": "Sfruttando la nostra expertise per arricchire il vostro portfolio con le imprese più innovative e promettenti del mercato. Contattateci per scoprire come possiamo lavorare insieme per trasformare visioni audaci in realtà di successo.",
+    "text2": "Valorizza il Tuo portfolio di Investimenti con le Startup più promettenti. Scoprite come il nostro approfondito know-how e la nostra rete esclusiva possono diventare il vostro vantaggio competitivo nella ricerca e valutazione delle migliori opportunità di investimento nel mercato delle startup e delle PMI. Iniziate oggi a costruire un futuro di successo per i vostri investimenti.",
+    "button": "CONTATTACI PER UNA PARTNERSHIP"
+  },
+  "investorTabs": {
+    "title": "I Nostri Servizi di Investimento",
+    "startupEvaluationTitle": "Valutazione di Startup e PMI",
+    "startupEvaluationDescription": "Analisi finanziaria e valutazione del potenziale di crescita. Due diligence approfondita per minimizzare i rischi di investimento.",
+    "dealNegotiationTitle": "Negoziazione e Strutturazione di Deal",
+    "dealNegotiationDescription": "Assistenza nella negoziazione di termini di investimento. Supporto nella strutturazione di accordi equi ed efficaci.",
+    "portfolioOptimizationTitle": "Ottimizzazione del Portfolio",
+    "portfolioOptimizationDescription": "Consigli su diversificazione e gestione del rischio. Analisi delle performance e strategie di uscita.",
+    "networkingOpportunitiesTitle": "Networking e Opportunità di Co-Investimento",
+    "networkingOpportunitiesDescription": "Accesso a una rete esclusiva di co-investitori potenziali. Organizzazione di eventi di networking per facilitare sinergie.",
+    "termSheetStudyTitle": "Studio dei Term Sheet Personalizzati",
+    "termSheetStudyDescription": "Elaborazione di term sheet che riflettono accuratamente gli accordi di investimento, bilanciando gli interessi di investitori e imprenditori. Consulenza legale e strategica per la redazione di documenti che proteggano gli investimenti e ne ottimizzino i rendimenti."
+  },
+  "InvestorsCallToAction2": {
+  "text3": "Massimizza il Rendimento dei Tuoi Investimenti.",
+  "text1": "Scopri come possiamo aiutarti a navigare con sicurezza nel mondo degli investimenti in startup e PMI, garantendo che ogni decisione sia informata, strategica e ottimizzata per il successo a lungo termine.",
+  "text2": "Contattaci per una consulenza personalizzata e inizia a trasformare le tue opportunità di investimento in realtà di successo.",
+  "button": "VOGLIO ESPLORARE LE OPPORTUNITÀ DI INVESTIMENTO"
+  },
+  "advisorsTabs": {
+  "title": "I NOSTRI PLUS+ per Studi Professionali",
+  "startupEvaluationTitle": "Consulenza Finanziaria aziendale Integrata",
+  "startupEvaluationDescription": "Servizi di consulenza finanziaria aziendale che si integrano perfettamente con l’offerta tradizionale dello studio del commercialista, arricchendo il valore fornito ai clienti.",
+  "dealNegotiationTitle": "Valutazione Aziendale e Accesso al Credito",
+  "dealNegotiationDescription": "Supporto specializzato nella valutazione di imprese e nella preparazione di piani finanziari per facilitare l’accesso al credito bancario e ad altre forme di finanziamento.",
+  "portfolioOptimizationTitle": "Pianificazione Finanziaria e Gestione del Rischio",
+  "portfolioOptimizationDescription": "Consulenza avanzata in pianificazione finanziaria strategica.",
+  "networkingOpportunitiesTitle": "Ristrutturazione Finanziaria e Turnaround",
+  "networkingOpportunitiesDescription": "Assistenza nelle fasi di ristrutturazione finanziaria, turnaround aziendale e riorganizzazione del debito, per aziende in difficoltà.",
+  "termSheetStudyTitle": "Internazionalizzazione Finanza Agevolata e ricerca acquirenti per M&A",
+  "termSheetStudyDescription": "Consulenza su operazioni di internazionalizzazione e accesso a finanziamenti agevolati e incentivi fiscali per la crescita all’estero. Ricerca Private Equity per operazioni di M&A."
+  },
+  "advisorsCallToAction": {
+  "title": "Espandi la Tua offerta con una Consulenza Finanziaria Specializzata",
+  "text1": "Collabora con noi e porta il valore aggiunto della consulenza specializzata in Capital Market direttamente ai tuoi clienti. Offriamo partnership flessibili in of counsel per integrare e potenziare i servizi che già fornisci, garantendo un supporto completo e su misura per ogni esigenza aziendale.",
+  "text2": "Scopri di più su come possiamo lavorare insieme per il successo dei tuoi clienti.",
+  "button": "MI INTERESSA UNA COLLABORAZIONE"
+  },
+  "advisorsHero": {
+    "title": "MAA per STUDI PROFESSIONALI"
+  },
+  "businessHero": {
+    "title": "MAA per STUDI PROFESSIONALI",
+    "description1": "Il nostro studio opera in maniera trasparente con un modello di consulenza basato sui seguenti passaggi:",
+    "description2": "• RICHIESTA DI ASSISTENZA PROFESSIONALE E DI CONTATTO. Questa fase prevede una richiesta di contatto con allegate le informazioni principali sul richiedente ed i servizi richiesti.",
+    "description3": "• BREVE DUE DILIGENCE: Riscontrate le potenzialità per poter assistere in maniera adeguata il potenziale cliente, ci faremo carico di effettuare una richiesta di documentazione finalizzata ad una breve due diligence. Lo studio investe sul cliente con remunerazione a success fee e deve quindi riscontrare la fattibilità dell’operazione di fundrising. Questo passaggio è fondamentale, in quanto rappresenta per noi un investimento sia in consulenza che nella costruzione di relazioni. Solo al termine di questa fase, e una volta verificate le condizioni, procederemo con la firma del mandato.",
+    "description4": "• PROPOSTA DI MANDATO PROFESSIONALE: Ad esito positivo della due diligence verrà proposto il Mandato Professionale che conterrà una proposta di RETAINER FEE e di SUCCESS FEE commisurate entrambe al valore della pratica ed al grado di successo stimato dell’operazione. Nei link dedicati è spiegato con completezza e trasparenza il criterio e le motivazioni di applicazione dei compensi.",
+    "description5": "La proposta di mandato conterrà anche le linee guida da impostare per il successo dell’operazione. Il piano strategico complessivo verrà discusso dopo la firma del mandato."
   }
 }

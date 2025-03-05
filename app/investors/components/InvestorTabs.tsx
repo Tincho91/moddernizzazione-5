@@ -3,39 +3,33 @@
 import GenericTabs from "@/app/components/GenericTabs";
 
 export default function InvestorTabs() {
-
   const tabs = [
     {
-      id: "investorLegal",
-      labelKey: "investorTabs.investorLegalTitle",
-      contentKey: "investorTabs.investorLegalDescription",
+      id: "startupEvaluation",
+      labelKey: "investorTabs.startupEvaluationTitle",
+      contentKey: "investorTabs.startupEvaluationDescription",
     },
     {
-      id: "financialStrategy",
-      labelKey: "investorTabs.financialStrategyTitle",
-      contentKey: "investorTabs.financialStrategyDescription",
+      id: "dealNegotiation",
+      labelKey: "investorTabs.dealNegotiationTitle",
+      contentKey: "investorTabs.dealNegotiationDescription",
     },
     {
-      id: "fundraisingSupport",
-      labelKey: "investorTabs.fundraisingSupportTitle",
-      contentKey: "investorTabs.fundraisingSupportDescription",
+      id: "portfolioOptimization",
+      labelKey: "investorTabs.portfolioOptimizationTitle",
+      contentKey: "investorTabs.portfolioOptimizationDescription",
     },
     {
-      id: "capitalStructure",
-      labelKey: "investorTabs.capitalStructureTitle",
-      contentKey: "investorTabs.capitalStructureDescription",
+      id: "networkingOpportunities",
+      labelKey: "investorTabs.networkingOpportunitiesTitle",
+      contentKey: "investorTabs.networkingOpportunitiesDescription",
     },
     {
-      id: "growthScaling",
-      labelKey: "investorTabs.growthScalingTitle",
-      contentKey: "investorTabs.growthScalingDescription",
+      id: "termSheetStudy",
+      labelKey: "investorTabs.termSheetStudyTitle",
+      contentKey: "investorTabs.termSheetStudyDescription",
     },
   ];
 
-  return (
-    <GenericTabs
-      tabs={tabs}
-      titleKey="investorTabs.title"
-    />
-  );
+  return <GenericTabs tabs={tabs} titleKey="investorTabs.title" />;
 }

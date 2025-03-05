@@ -5,9 +5,12 @@ import CallToAction from "@/app/components/GenericCallToAction";
 export default function InvestorsCallToAction() {
   return (
     <CallToAction
-      titleKey="callToAction.text3"
-      textKeys={["callToAction.text1", "callToAction.text2", "callToAction.text4"]}
-      buttonKey="callToAction.button"
+      titleKey="investorsCallToAction.title"
+      textKeys={[
+        "investorsCallToAction.text1",
+        "investorsCallToAction.text2"
+      ]}
+      buttonKey="investorsCallToAction.button"
     />
   );
 }

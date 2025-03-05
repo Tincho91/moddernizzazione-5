@@ -1,9 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Form, Input, Textarea, CheckboxGroup, Checkbox, Button } from "@heroui/react";
+import { Form, Input, Textarea, CheckboxGroup, Checkbox, Button, Card, CardHeader, CardBody } from "@heroui/react";
 
-// Definir el tipo de datos del formulario
 interface FormData {
   nomeCognome: string;
   email: string;
@@ -11,7 +10,6 @@ interface FormData {
   selectedOptions: string[];
 }
 
-// Definir el tipo de errores con una firma de índice compatible con HeroUI
 interface FormErrors {
   [key: string]: string | undefined;
 }
@@ -26,142 +24,92 @@ export default function ContactForm() {
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitted, setSubmitted] = useState<FormData | null>(null);
 
-  // Función para validar los datos del formulario
   const validateForm = (): FormErrors => {
     const newErrors: FormErrors = {};
 
-    // Validación de Nome e Cognome
-    if (!formData.nomeCognome) {
-      newErrors.nomeCognome = "Please enter your name";
-    }
-
-    // Validación de Email
+    if (!formData.nomeCognome) newErrors.nomeCognome = "Please enter your name";
     if (!formData.email) {
       newErrors.email = "Please enter your email";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = "Please enter a valid email address";
     }
-
-    // Validación de Messaggio
-    if (!formData.messaggio) {
-      newErrors.messaggio = "Please enter a message";
-    }
-
-    // Validación del Checkbox group
-    if (formData.selectedOptions.length === 0) {
-      newErrors.selectedOptions = "Please select at least one option";
-    }
+    if (!formData.messaggio) newErrors.messaggio = "Please enter a message";
+    if (formData.selectedOptions.length === 0) newErrors.selectedOptions = "Please select at least one option";
 
     return newErrors;
   };
 
-  // Función para manejar el submit
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    // Realizar la validación del formulario
     const newErrors = validateForm();
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       return;
     }
-
-    // Limpiar los errores
     setErrors({});
-    
-    // Aquí puedes integrar Nodemailer o cualquier librería para enviar el correo
-    // Como ejemplo, si usas una API o un backend con Nodemailer, enviarías formData aquí
-
-    // Si el formulario se envía correctamente, mostramos los datos
     setSubmitted(formData);
-
-    // Limpiar el formulario después de enviar (opcional)
-    setFormData({
-      nomeCognome: "",
-      email: "",
-      messaggio: "",
-      selectedOptions: [],
-    });
+    setFormData({ nomeCognome: "", email: "", messaggio: "", selectedOptions: [] });
   };
 
   return (
-    <Form
-      className="w-full max-w-md min-h-[85vh] space-y-4"
-      onSubmit={handleSubmit}
-      // @ts-expect-error -------TO UPDATE-------
-      validationErrors={errors}  // Pasa los errores validados (ahora compatibles con HeroUI)
-    >
-      <div className="flex flex-col gap-4">
-        {/* Nome e Cognome */}
-        <Input
-          isRequired
-          errorMessage={errors.nomeCognome}
-          label="Nome e Cognome"
-          labelPlacement="outside"
-          name="nomeCognome"
-          placeholder="Enter your full name"
-          value={formData.nomeCognome}
-          onValueChange={(e) => setFormData({ ...formData, nomeCognome: e })}
-        />
-
-        {/* Email */}
-        <Input
-          isRequired
-          errorMessage={errors.email}
-          label="Email"
-          labelPlacement="outside"
-          name="email"
-          placeholder="Enter your email"
-          value={formData.email}
-          onValueChange={(e) => setFormData({ ...formData, email: e })}
-          type="email"
-        />
-
-        {/* Messaggio */}
-        <Textarea
-          isRequired
-          errorMessage={errors.messaggio}
-          label="Messaggio"
-          labelPlacement="outside"
-          name="messaggio"
-          placeholder="Enter your message"
-          value={formData.messaggio}
-          onValueChange={(e) => setFormData({ ...formData, messaggio: e })}
-        />
-
-        {/* Checkbox Group */}
-        <CheckboxGroup
-          label="Choose an option"
-          name="options"
-          errorMessage={errors.selectedOptions}
-          value={formData.selectedOptions}
-          onValueChange={(selectedOptions: string[]) =>
-            setFormData({ ...formData, selectedOptions })
-          }
-        >
-          <Checkbox value="Start">Start</Checkbox>
-          <Checkbox value="upinvestors">Upinvestors</Checkbox>
-          <Checkbox value="Professional Advisories">Professional Advisories</Checkbox>
-        </CheckboxGroup>
-
-        {/* Mostrar errores del checkbox */}
-        {errors.selectedOptions && (
-          <span className="text-danger text-small">{errors.selectedOptions}</span>
-        )}
-
-        {/* Botón de envío */}
-        <div className="flex gap-4">
-          <Button className="w-full" color="primary" type="submit">
-            Send
-          </Button>
-        </div>
-      </div>
-
-      {submitted && (
-        <div className="text-small text-default-500 mt-4">
-          Submitted data: <pre>{JSON.stringify(submitted, null, 2)}</pre>
-        </div>
-      )}
-    </Form>
+    <div className="w-full flex justify-center items-center bg-secondary-light dark:bg-primary-dark p-8 md:p-16 min-h-screen">
+      <Card className="w-full max-w-lg mx-auto p-4 bg-primary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl">
+        <CardHeader className="text-2xl font-bold text-center text-white">
+          Contact Us
+        </CardHeader>
+        <CardBody>
+          <Form className="space-y-2" onSubmit={handleSubmit}>
+            <label className="text-white text-lg">Nome e Cognome</label>
+            <Input
+              isRequired
+              errorMessage={errors.nomeCognome}
+              name="nomeCognome"
+              placeholder="Enter your full name"
+              value={formData.nomeCognome}
+              onValueChange={(e) => setFormData({ ...formData, nomeCognome: e })}
+            />
+            <label className="text-white text-lg">Email</label>
+            <Input
+              isRequired
+              errorMessage={errors.email}
+              name="email"
+              placeholder="Enter your email"
+              value={formData.email}
+              onValueChange={(e) => setFormData({ ...formData, email: e })}
+              type="email"
+            />
+            <label className="text-white text-lg">Messaggio</label>
+            <Textarea
+              isRequired
+              errorMessage={errors.messaggio}
+              name="messaggio"
+              placeholder="Enter your message"
+              value={formData.messaggio}
+              onValueChange={(e) => setFormData({ ...formData, messaggio: e })}
+              className="w-full"
+            />
+            <CheckboxGroup
+              label={<span className="text-xl text-white font-bold">Choose an option</span>}
+              name="options"
+              errorMessage={errors.selectedOptions}
+              value={formData.selectedOptions}
+              onValueChange={(selectedOptions) => setFormData({ ...formData, selectedOptions })}
+            >
+              <Checkbox value="Start" className="text-white [&>span]:text-white">Start</Checkbox>
+              <Checkbox value="upinvestors" className="text-white [&>span]:text-white">Upinvestors</Checkbox>
+              <Checkbox value="Professional Advisories" className="text-white [&>span]:text-white">Professional Advisories</Checkbox>
+            </CheckboxGroup>
+            <Button className="w-full bg-white text-black" type="submit">
+              Send
+            </Button>
+          </Form>
+          {submitted && (
+            <div className="text-sm text-white mt-4">
+              Submitted data: <pre>{JSON.stringify(submitted, null, 2)}</pre>
+            </div>
+          )}
+        </CardBody>
+      </Card>
+    </div>
   );
 }

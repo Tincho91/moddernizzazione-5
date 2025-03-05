@@ -3,12 +3,12 @@
 import { motion } from "framer-motion";
 import { useLanguage } from "@/app/LanguageContext";
 
-export default function InvestorsHero() {
+export default function StartupInvestorsHero() {
   const { t } = useLanguage();
 
   return (
     <div className="relative h-screen w-full flex items-center justify-center bg-white text-primary-light dark:bg-primary-dark dark:text-white">
-      {/* Imagen de fondo */}
+      {/* Background Image */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <img
           src="/graph.png"
@@ -17,7 +17,7 @@ export default function InvestorsHero() {
         />
       </div>
 
-      {/* Contenedor principal */}
+      {/* Main Content */}
       <div className="relative z-10 w-full max-w-7xl p-8 xl:p-0 mx-auto text-center">
         <motion.h1
           initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ export default function InvestorsHero() {
           transition={{ duration: 2 }}
           className="text-4xl sm:text-6xl md:text-7xl font-bold mb-10 lg:mb-24 text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark"
         >
-          {t("investorsHero.title")}
+          {t("startupInvestorsHero.title")}
         </motion.h1>
 
         <motion.h2
@@ -34,7 +34,7 @@ export default function InvestorsHero() {
           transition={{ duration: 2, delay: 0.2 }}
           className="text-lg sm:text-xl md:text-2xl font-bold mb-5"
         >
-          {t("investorsHero.subtitle")}
+          {t("startupInvestorsHero.subtitle")}
         </motion.h2>
 
         <motion.p
@@ -43,7 +43,7 @@ export default function InvestorsHero() {
           transition={{ duration: 2, delay: 0.4 }}
           className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
         >
-          {t("investorsHero.description1")}
+          {t("startupInvestorsHero.description1")}
         </motion.p>
 
         <motion.p
@@ -52,7 +52,7 @@ export default function InvestorsHero() {
           transition={{ duration: 2, delay: 0.6 }}
           className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
         >
-          {t("investorsHero.description2")}
+          {t("startupInvestorsHero.description2")}
         </motion.p>
 
         <motion.p
@@ -61,7 +61,7 @@ export default function InvestorsHero() {
           transition={{ duration: 2, delay: 0.8 }}
           className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
         >
-          {t("investorsHero.description3")}
+          {t("startupInvestorsHero.description3")}
         </motion.p>
       </div>
     </div>

@@ -1,8 +1,8 @@
-import React from 'react'
+import BusinessHero from "./components/BusinessHero"
 
 const page = () => {
   return (
-    <div>page</div>
+    <BusinessHero />
   )
 }
 

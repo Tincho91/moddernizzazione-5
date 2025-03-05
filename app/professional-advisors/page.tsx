@@ -1,11 +1,13 @@
-import AdvisorsCallToAction from "./components/AdvisorsCallToAction"
-import AdvisorsTabs from "./components/AdvisorsTabs"
+"use client";
 
+import AdvisorsCallToAction from "./components/AdvisorsCallToAction"
+import AdvisorsHero from "./components/AdvisorsHero";
+import AdvisorsTabs from "./components/AdvisorsTabs"
 
 const page = () => {
   return (
     <>
-      <div>page</div>
+      <AdvisorsHero />
       <AdvisorsTabs />
       <AdvisorsCallToAction />
     </>

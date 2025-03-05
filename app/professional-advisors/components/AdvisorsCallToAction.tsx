@@ -1,9 +1,16 @@
-import React from 'react'
+"use client";
 
-const AdvisorsCallToAction = () => {
+import CallToAction from "@/app/components/GenericCallToAction";
+
+export default function AdvisorsCallToAction() {
   return (
-    <div>AdvisorsCallToAction</div>
-  )
+    <CallToAction
+      titleKey="advisorsCallToAction.title"
+      textKeys={[
+        "advisorsCallToAction.text1",
+        "advisorsCallToAction.text2"
+      ]}
+      buttonKey="advisorsCallToAction.button"
+    />
+  );
 }
-
-export default AdvisorsCallToAction

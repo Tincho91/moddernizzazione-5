@@ -109,5 +109,78 @@
     "strategicSolutions": "Discover how our firm can guide you towards strategic solutions tailored for your success.",
     "contactPrompt": "Contact us today for an initial consultation.",
     "contactButton": "I WANT TO CONTACT THE FIRM"
+  },
+  "startupInvestorsHero": {
+    "title": "MAA for INVESTORS, FUNDS, and PRIVATE EQUITY",
+    "subtitle": "Enhance Your Investment Portfolio with Successful Startups.",
+    "description1": "In the dynamic world of startups and SMEs, identifying hidden gems requires expert insight and a deep understanding of the market.",
+    "description2": "With over 30 years of experience in business creation and development, our professional firm offers venture capitalists, business angels, and banking institutions an unmatched service to discover and evaluate the most promising investment opportunities.",
+    "description3": "Thanks to our specialization and a solid network of contacts in the industry, we are able to provide detailed and accurate analysis of potential startups and SMEs, ensuring that your investment is directed towards businesses with real potential for growth and success."
+  },
+  "investorsAccordion": {
+    "title": "Why Collaborate with Us?",
+    "experienceAndSpecialization": "Experience and Specialization",
+    "experienceDescription": "Three decades of success and a highly specialized approach in the field of corporate finance.",
+    "qualitySelection": "Quality Selection",
+    "qualityDescription": "Gain access to a curated selection of startups and SMEs with high potential, pre-evaluated through rigorous criteria.",
+    "strategicSupport": "Strategic Support",
+    "strategicDescription": "We offer strategic consulting and management support to maximize investment returns.",
+    "extensiveNetwork": "Extensive Network",
+    "networkDescription": "Benefit from our extensive network of contacts in the world of startups, SMEs, and investors."
+  },
+  "investorsCallToAction": {
+  "title": "Invest in the Future with Confidence",
+  "text1": "Leveraging Our Expertise to Enrich Your Portfolio with the Most Innovative and Promising Enterprises in the Market. Contact Us to Discover How We Can Work Together to Turn Bold Visions into Successful Realities.",
+  "text2": "Enhance Your Investment Portfolio with the Most Promising Startups. Discover how our in-depth know-how and exclusive network can become your competitive advantage in the search and evaluation of the best investment opportunities in the startup and SME market. Start building a successful future for your investments today.",
+  "button": "CONTACT US FOR A PARTNERSHIP"
+  },
+  "investorTabs": {
+  "title": "Our Investment Services",
+  "startupEvaluationTitle": "Startup and SME Evaluation",
+  "startupEvaluationDescription": "Financial analysis and growth potential assessment. In-depth due diligence to minimize investment risks.",
+  "dealNegotiationTitle": "Deal Negotiation and Structuring",
+  "dealNegotiationDescription": "Assistance in negotiating investment terms. Support in structuring fair and effective agreements.",
+  "portfolioOptimizationTitle": "Portfolio Optimization",
+  "portfolioOptimizationDescription": "Advice on diversification and risk management. Performance analysis and exit strategies.",
+  "networkingOpportunitiesTitle": "Networking and Co-Investment Opportunities",
+  "networkingOpportunitiesDescription": "Access to an exclusive network of potential co-investors. Organization of networking events to facilitate synergies.",
+  "termSheetStudyTitle": "Customized Term Sheet Study",
+  "termSheetStudyDescription": "Drafting term sheets that accurately reflect investment agreements, balancing the interests of investors and entrepreneurs. Legal and strategic consulting to create documents that protect investments and optimize returns."
+  },
+  "InvestorsCallToAction2": {
+  "text3": "Maximize the Return on Your Investments.",
+  "text1": "Discover how we can help you safely navigate the world of startup and SME investments, ensuring that every decision is informed, strategic, and optimized for long-term success.",
+  "text2": "Contact us for tailored consulting and start transforming your investment opportunities into successful realities.",
+  "button": "I WANT TO EXPLORE INVESTMENT OPPORTUNITIES"
+  },
+  "advisorsTabs": {
+  "title": "OUR PLUSES+ for Professional Firms",
+  "startupEvaluationTitle": "Integrated Corporate Financial Consulting",
+  "startupEvaluationDescription": "Corporate financial consulting services that integrate seamlessly with the traditional offerings of an accounting firm, enhancing the value provided to clients.",
+  "dealNegotiationTitle": "Business Valuation and Access to Credit",
+  "dealNegotiationDescription": "Specialized support in business valuation and financial plan preparation to facilitate access to bank credit and other forms of financing.",
+  "portfolioOptimizationTitle": "Financial Planning and Risk Management",
+  "portfolioOptimizationDescription": "Advanced consulting in strategic financial planning.",
+  "networkingOpportunitiesTitle": "Financial Restructuring and Turnaround",
+  "networkingOpportunitiesDescription": "Assistance with financial restructuring, corporate turnaround, and debt reorganization for distressed companies.",
+  "termSheetStudyTitle": "Internationalization, Subsidized Finance, and M&A Buyer Search",
+  "termSheetStudyDescription": "Consulting on internationalization operations and access to subsidized financing and tax incentives for growth abroad. Private Equity."
+  },
+  "advisorsCallToAction": {
+  "title": "Expand Your Offering with Specialized Financial Consulting",
+  "text1": "Collaborate with us and bring the added value of specialized Capital Market consulting directly to your clients. We offer flexible counsel partnerships to integrate and enhance the services you already provide, ensuring comprehensive and tailored support for every business need.",
+  "text2": "Learn more about how we can work together for the success of your clients.",
+  "button": "I AM INTERESTED IN A COLLABORATION"
+  },
+  "advisorsHero": {
+    "title": "MAA for PROFESSIONAL FIRMS"
+  },
+  "businessHero": {
+    "title": "MAA for PROFESSIONAL FIRMS",
+    "description1": "Our firm operates transparently with a consulting model based on the following steps:",
+    "description2": "• REQUEST FOR PROFESSIONAL ASSISTANCE AND CONTACT. This phase involves a contact request with the main information about the applicant and the services required attached.",
+    "description3": "• BRIEF DUE DILIGENCE: Once the potential to adequately assist the prospective client has been identified, we will request documentation to conduct a brief due diligence. The firm invests in the client with a remuneration based on a success fee and must therefore assess the feasibility of the fundrising operation. This step is essential as it represents for us an investment both in consulting and in building relationships. Only at the end of this phase, and after verifying the conditions, will we proceed with the signing of the mandate.",
+    "description4": "• PROFESSIONAL MANDATE PROPOSAL: If the due diligence yields positive results, a Professional Mandate will be proposed, which will include a proposal for both a RETAINER FEE and a SUCCESS FEE commensurate with the value of the case and the estimated success of the operation. The dedicated links explain in full transparency the criteria and reasons for applying the fees.",
+    "description5": "The mandate proposal will also include guidelines to set up for the success of the operation. The overall strategic plan will be discussed after the signing of the mandate."
   }
 }
