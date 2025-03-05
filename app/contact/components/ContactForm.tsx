@@ -52,11 +52,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full flex justify-center items-center bg-secondary-light dark:bg-primary-dark p-8 md:p-16 min-h-screen">
-      <Card className="w-full max-w-lg mx-auto p-4 bg-primary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl">
-        <CardHeader className="text-2xl font-bold text-center text-white">
-          Contact Us
-        </CardHeader>
+    <div className="w-full flex justify-center items-center bg-secondary-light dark:bg-primary-dark">
+      <Card className="w-full sm:max-w-lg p-4 bg-primary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg">
         <CardBody>
           <Form className="space-y-2" onSubmit={handleSubmit}>
             <label className="text-white text-lg">Nome e Cognome</label>
