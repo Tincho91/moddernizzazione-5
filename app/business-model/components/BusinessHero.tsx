@@ -24,7 +24,7 @@ export default function BusinessHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.2 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
+          className="text-base font-bold text-left sm:text-lg md:text-2xl leading-relaxed mx-auto max-w-6xl"
         >
           {t("businessHero.description1")}
         </motion.p>
