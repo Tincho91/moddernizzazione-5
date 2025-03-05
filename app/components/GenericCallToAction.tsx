@@ -15,7 +15,7 @@ const CallToAction = ({ titleKey, textKeys, buttonKey }: CallToActionProps) => {
 
   return (
     <div className="w-full flex justify-center items-center bg-primary-light dark:bg-primary-dark p-8 md:p-16">
-      <Card className="w-full max-w-3xl mx-auto p-6 bg-secondary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl overflow-hidden">
+      <Card className="w-full max-w-3xl mx-auto p-3 md:p-6 bg-secondary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl overflow-hidden">
         <CardHeader className="text-center px-3">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -42,8 +42,12 @@ const CallToAction = ({ titleKey, textKeys, buttonKey }: CallToActionProps) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.8 }}
+            className="w-full flex justify-center"
           >
-            <Button size="lg" className="px-6 py-3 text-lg">
+            <Button
+              size="lg"
+              className="w-full max-w-full px-6 py-10 text-lg text-center whitespace-normal break-words"
+            >
               {t(buttonKey)}
             </Button>
           </motion.div>

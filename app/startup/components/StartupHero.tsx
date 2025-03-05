@@ -7,7 +7,7 @@ export default function StartupHero() {
   const { t } = useLanguage();
 
   return (
-    <div className="relative h-screen w-full flex items-center justify-center bg-white text-primary-light dark:bg-primary-dark dark:text-white">
+    <div className="relative min-h-screen w-full flex items-center justify-center bg-white text-primary-light dark:bg-primary-dark dark:text-white">
       {/* Imagen de fondo */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <img
