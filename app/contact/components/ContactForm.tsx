@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Form, Input, Textarea, CheckboxGroup, Checkbox, Button, Card, CardHeader, CardBody } from "@heroui/react";
+import { Form, Input, Textarea, CheckboxGroup, Checkbox, Button, Card, CardBody } from "@heroui/react";
 
 interface FormData {
   nomeCognome: string;
