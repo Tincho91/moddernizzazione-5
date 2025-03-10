@@ -67,11 +67,11 @@ export default function Hero() {
             {t("hero.subtitle")}
           </h2>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-textSubtle-light dark:text-textSubtle-dark leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg text-left sm:text-xl md:text-2xl text-textSubtle-light dark:text-textSubtle-dark leading-relaxed max-w-3xl mx-auto">
             {t("hero.description1")}
           </p>
 
-          <p className="text-lg sm:text-xl md:text-2xl text-textSubtle-light dark:text-textSubtle-dark leading-relaxed max-w-3xl mx-auto mt-4">
+          <p className="text-lg text-left sm:text-xl md:text-2xl text-textSubtle-light dark:text-textSubtle-dark leading-relaxed max-w-3xl mx-auto mt-4">
             {t("hero.description2")}
           </p>
         </motion.div>

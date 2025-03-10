@@ -1,12 +1,20 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { Cormorant_Garamond } from "next/font/google";
+
 import { HeroUIProvider } from "@heroui/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { LanguageProvider } from "./LanguageContext";
 
 import NavigationBar from "./components/Navbar";
 import Footer from "./components/Footer";
+
+
+const cormorantGaramond = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["700"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -20,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={cormorantGaramond.className}>
         <LanguageProvider>
           <HeroUIProvider>
             <NextThemesProvider attribute="class" defaultTheme="light">

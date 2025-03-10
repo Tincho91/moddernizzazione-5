@@ -32,7 +32,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.2 }}
-          className="text-lg sm:text-xl md:text-2xl font-bold mb-5"
+          className="text-lg text-left sm:text-xl md:text-2xl font-bold mb-5"
         >
           {t("startupInvestorsHero.subtitle")}
         </motion.h2>
@@ -41,7 +41,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.4 }}
-          className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
         >
           {t("startupInvestorsHero.description1")}
         </motion.p>
@@ -50,7 +50,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.6 }}
-          className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
         >
           {t("startupInvestorsHero.description2")}
         </motion.p>
@@ -59,7 +59,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.8 }}
-          className="text-base sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
         >
           {t("startupInvestorsHero.description3")}
         </motion.p>
