@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.2",
     "@heroui/react": "^2.6.14",
     "framer-motion": "^12.4.2",
     "lucide-react": "^0.475.0",

@@ -8,41 +8,14 @@ const BusinessAccordion = () => {
         subtitleKey="businessAccordion.subtitle"
         items={[
           {
-            labelKey: "businessAccordion.transparencyAndProfessionalism",
-            descriptionKey: "businessAccordion.transparencyDescription"
+            labelKey: "businessAccordion.retainerFeeVariables",
+            descriptionKey: "businessAccordion.retainerFeeVariablesDescription"
           },
           {
-            labelKey: "businessAccordion.evaluationCosts",
-            descriptionKey: "businessAccordion.evaluationCostsDescription"
+            labelKey: "businessAccordion.successFeeTitle",
+            descriptionKey: "businessAccordion.successFeeDescription"
           },
-          {
-            labelKey: "businessAccordion.strategicPlanning",
-            descriptionKey: "businessAccordion.strategicPlanningDescription"
-          },
-          {
-            labelKey: "businessAccordion.dedicatedCommitment",
-            descriptionKey: "businessAccordion.dedicatedCommitmentDescription"
-          },
-          {
-            labelKey: "businessAccordion.riskMitigation",
-            descriptionKey: "businessAccordion.riskMitigationDescription"
-          },
-          {
-            labelKey: "businessAccordion.fundraisingStrategy",
-            descriptionKey: "businessAccordion.fundraisingStrategyDescription"
-          },
-          {
-            labelKey: "businessAccordion.ongoingCommitment",
-            descriptionKey: "businessAccordion.ongoingCommitmentDescription"
-          },
-          {
-            labelKey: "businessAccordion.accessToNetwork",
-            descriptionKey: "businessAccordion.accessToNetworkDescription"
-          },
-          {
-            labelKey: "businessAccordion.iterativeProcess",
-            descriptionKey: "businessAccordion.iterativeProcessDescription"
-          }
+
         ]}
       />
     </div>

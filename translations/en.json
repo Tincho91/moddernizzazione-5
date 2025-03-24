@@ -9,113 +9,113 @@
   "hero": {
     "title": "STUDIO MAA",
     "subtitle": "M&A and Capital Market",
-    "description1": "We guide companies, investors, and financial industry professionals to success through specialized advisory services in corporate finance, M&A, and investment strategies. With over 30 years of experience, we combine advanced skills and a broad network of contacts to offer customized solutions that turn visions into tangible realities.",
-    "description2": "Our services are delivered with a commitment to sustainability, incorporating fundamental ESG principles into our consulting to benefit companies, investors, and professionals."
+    "description1": "We empower companies, investors, and professionals with expert advisory in corporate finance, M&A, and investment strategies. With 30+ years of experience, we provide tailored solutions to turn visions into reality.",
+    "description2": "Committed to sustainability, we integrate ESG principles into our consulting for long-term value."
   },
   "founder": {
     "title": "Founder",
     "name": "Maurizio Ansaldi Arena",
-    "description": "Founder and owner of the Studio. A Certified Public Accountant registered in the Milan Register at no. 10641 Section A since 1991, and on the ICAEW register in London for the Commonwealth at n. 8767902. He has specialized training with a Master's in Corporate Finance, is a startup expert, and serves as a Mentor on behalf of university incubators and as a partner in investor associations.",
+    "description": "Certified Public Accountant since 1991, registered in Milan and London. Expert in corporate finance, startups, and investment mentoring.",
     "imageAlt": "Maurizio Ansaldi Arena"
   },
   "services": {
     "title": "Consulting Services",
-    "consultingTitle": "For Companies and Startups",
-    "consultingDescription": "Transform your startup into a recognized success. Thanks to our many years of experience, we offer strategic and financial consulting that lays the groundwork for sustainable growth and access to essential funding.",
+    "consultingTitle": "For Companies & Startups",
+    "consultingDescription": "Strategic and financial consulting to drive sustainable growth and secure funding.",
     "investorsTitle": "For Investors",
-    "investorsDescription": "Maximize the return on your investments with our specialized consulting in M&A and corporate investment strategies. We assist investors, funds, and private equity firms in identifying, evaluating, and capitalizing on investment opportunities with a tailored approach.",
+    "investorsDescription": "Maximize returns with our M&A and investment strategy expertise.",
     "professionalFirmsTitle": "For Professional Firms",
-    "professionalFirmsDescription": "Expand your offerings with high-level financial consulting services. Collaborate with us to integrate your range of services with our specialization in corporate finance and M&A operations, ensuring optimal management of your clients' financial needs.",
+    "professionalFirmsDescription": "Enhance your services with specialized corporate finance and M&A consulting.",
     "learnMore": "Learn More"
   },
   "infoSection": {
     "title": "Why Choose Us",
-    "experienceAndSpecialization": "Experience and Specialization",
-    "experienceDescription": "We bring decades of specialized knowledge in corporate finance and M&A, equipping us to handle complex challenges with proficiency.",
-    "networkOfContacts": "Network of Contacts",
-    "networkDescription": "Our extensive network of industry contacts enables us to connect clients with pivotal resources and opportunities.",
-    "customizedSolutions": "Customized Solutions",
-    "customizedDescription": "We tailor our services to meet the unique needs of each client, ensuring that our solutions align perfectly with their objectives.",
-    "integratedApproach": "Integrated Approach",
-    "integratedDescription": "Our comprehensive approach integrates various aspects of financial services to provide cohesive and effective strategies."
+    "experienceAndSpecialization": "Expertise & Experience",
+    "experienceDescription": "Decades of corporate finance and M&A expertise to tackle complex challenges.",
+    "networkOfContacts": "Strong Network",
+    "networkDescription": "We connect you with key industry resources and opportunities.",
+    "customizedSolutions": "Tailored Solutions",
+    "customizedDescription": "Our services align perfectly with your unique objectives.",
+    "integratedApproach": "Comprehensive Approach",
+    "integratedDescription": "We integrate financial services for seamless, effective strategies."
   },
   "startupHero": {
-    "title": "MAA for STARTUPS and BUSINESSES",
-    "subtitle": "Transform Your Startup into a Recognized Success.",
-    "description1": "With over 30 years of experience in business creation, our professional firm guides startups to success using the most advanced tools in managerial techniques and strategy.",
-    "description2": "Specializing in optimal positioning for funding acquisition, whether through equity from venture capitalists and business angels or through conventional or subsidized finance, we offer tailor-made solutions that stand out for their high specialization. Our expertise is the result of extensive experience in key roles such as mentorship, project management, evaluations, consulting, and investments as a business angel.",
-    "description3": "We are partners with prestigious Italian and international associations, ready to provide you with a network of contacts and deep industry knowledge to launch your startup towards new horizons of success."
+    "title": "MAA for STARTUPS & BUSINESSES",
+    "subtitle": "Turn Your Startup into a Success.",
+    "description1": "With 30+ years in business creation, we guide startups with cutting-edge strategy and managerial techniques.",
+    "description2": "We specialize in securing funding, offering tailored solutions for venture capital, business angels, and financial planning.",
+    "description3": "As partners of top international associations, we provide vital industry connections to propel your startup forward."
   },
   "callToAction": {
-    "text1": "Join the startups that have found the ideal partner in our firm to navigate the complex world of corporate finance.",
-    "text2": "Contact us today to discover how we can transform your vision into reality.",
-    "text3": "Ready to Propel Your Startup?",
-    "text4": "Learn how our specialized approach can unlock new funding and growth opportunities for your project.",
-    "button": "YES, I WANT A CONSULTATION"
+    "text1": "Join the startups that trust our firm for financial guidance.",
+    "text2": "Contact us to bring your vision to life.",
+    "text3": "Ready to Scale?",
+    "text4": "Unlock funding and growth opportunities with our expertise.",
+    "button": "GET A CONSULTATION"
   },
   "StartupTabs": {
-    "title": "OUR PLUSES+ for Startups and Businesses",
-    "startupLegalTitle": "Startup Legal Setup",
+    "title": "Our Strengths for Startups & Businesses",
+    "startupLegalTitle": "Legal Setup",
     "startupLegalDescription": [
-      "Choosing the Right Business Structure: Assistance in selecting the most suitable legal structure for your startup, considering tax aspects, legal liability, and capital requirements.",
-      "Drafting of Key Documents: Preparation of corporate bylaws, shareholders' agreements, and other essential legal documents to regulate relationships between founders, investors, and other stakeholders (LOI and MOU).",
-      "Compliance and Regulations: Guidance through the complex landscape of industry-specific regulations, including data protection requirements (GDPR), intellectual property rights, and necessary licenses.",
-      "Consultation on Non-Disclosure Agreements (NDA): Creation of non-disclosure agreements to protect your ideas and technologies during negotiations with potential partners and investors.",
-      "Support in Funding Phases: Assistance in drafting investment agreements and negotiating legal terms with venture capitalists, business angels, and other funding sources."
+      "Choosing the right business structure.",
+      "Drafting key legal documents.",
+      "Compliance with regulations.",
+      "NDAs for idea protection.",
+      "Legal support in funding rounds."
     ],
-    "financialStrategyTitle": "Financial Strategy & Evaluation",
+    "financialStrategyTitle": "Financial Strategy",
     "financialStrategyDescription": [
       "Detailed financial analysis.",
-      "Development of tailored financial strategies.",
-      "Planning for access to funding.",
-      "Business Plan."
+      "Tailored financial planning.",
+      "Funding access strategies.",
+      "Business Plan development."
     ],
     "fundraisingSupportTitle": "Fundraising Support",
     "fundraisingSupportDescription": [
-      "Preparation for funding rounds.",
-      "Presentation to venture capitalists and business angels.",
-      "Assistance in negotiating terms and agreements (Termsheet)."
+      "Funding round preparation.",
+      "Investor presentations.",
+      "Negotiation of investment terms."
     ],
-    "capitalStructureTitle": "Capital Structure Optimization",
+    "capitalStructureTitle": "Capital Optimization",
     "capitalStructureDescription": [
-      "Analysis and consultancy on the ideal capital structure.",
+      "Ideal capital structure analysis.",
       "Equity and debt financing strategies."
     ],
     "growthScalingTitle": "Growth & Scalability",
     "growthScalingDescription": [
-      "Strategic planning for growth.",
-      "Consultancy on scalability and market expansion."
+      "Strategic growth planning.",
+      "Market expansion consulting."
     ],
-    "innovationDevelopmentTitle": "Innovation & New Product Development",
+    "innovationDevelopmentTitle": "Innovation & Product Development",
     "innovationDevelopmentDescription": [
-      "Support in innovation management.",
-      "Strategies for the development and launch of new products."
+      "Innovation management support.",
+      "Product launch strategies."
     ]
   },
   "startupSection": {
     "title": "Why Choose Us?",
     "experienceAndSpecialization": "Proven Experience",
-    "experienceDescription": "Over three decades of success in the field of business creation and development.",
-    "networkOfContacts": "Network of Contacts",
-    "networkDescription": "Effective strategies for a winning positioning, essential for securing significant funding.",
+    "experienceDescription": "30+ years of startup success.",
+    "networkOfContacts": "Industry Network",
+    "networkDescription": "Strategic positioning for funding.",
     "customizedSolutions": "Specialized Approach",
-    "customizedDescription": "Highly specialized services, designed for the unique needs of innovative startups.",
-    "integratedApproach": "Tangible Results",
-    "integratedDescription": "Exclusive access to a network of financiers, including venture capitalists, business angels, and sources of subsidized finance."
+    "customizedDescription": "Tailored solutions for innovative startups.",
+    "integratedApproach": "Real Results",
+    "integratedDescription": "Exclusive access to investors and financial support."
   },
   "startupCallToAction": {
-    "visionTitle": "Transform Your Vision into Success",
-    "financialChallenges": "Don’t let financial challenges hinder the potential of your business.",
-    "strategicSolutions": "Discover how our firm can guide you towards strategic solutions tailored for your success.",
-    "contactPrompt": "Contact us today for an initial consultation.",
-    "contactButton": "I WANT TO CONTACT THE FIRM"
+    "visionTitle": "Turn Your Vision into Success",
+    "financialChallenges": "Don't let finances hold you back.",
+    "strategicSolutions": "Let us guide you with tailored strategies.",
+    "contactPrompt": "Get a consultation today.",
+    "contactButton": "CONTACT US"
   },
   "startupInvestorsHero": {
-    "title": "MAA for INVESTORS, FUNDS, and PRIVATE EQUITY",
-    "subtitle": "Enhance Your Investment Portfolio with Successful Startups.",
-    "description1": "In the dynamic world of startups and SMEs, identifying hidden gems requires expert insight and a deep understanding of the market.",
-    "description2": "With over 30 years of experience in business creation and development, our professional firm offers venture capitalists, business angels, and banking institutions an unmatched service to discover and evaluate the most promising investment opportunities.",
-    "description3": "Thanks to our specialization and a solid network of contacts in the industry, we are able to provide detailed and accurate analysis of potential startups and SMEs, ensuring that your investment is directed towards businesses with real potential for growth and success."
+    "title": "MAA for INVESTORS, FUNDS & PRIVATE EQUITY",
+    "subtitle": "Invest in Promising Startups.",
+    "description1": "Identifying high-potential startups requires expert insights.",
+    "description2": "With 30+ years in business development, we help investors discover top opportunities.",
+    "description3": "Our expertise and strong network ensure your investments go to businesses with real growth potential."
   },
   "investorsAccordion": {
     "title": "Why Collaborate with Us?",
@@ -129,125 +129,87 @@
     "networkDescription": "Benefit from our extensive network of contacts in the world of startups, SMEs, and investors."
   },
   "investorsCallToAction": {
-  "title": "Invest in the Future with Confidence",
-  "text1": "Leveraging Our Expertise to Enrich Your Portfolio with the Most Innovative and Promising Enterprises in the Market. Contact Us to Discover How We Can Work Together to Turn Bold Visions into Successful Realities.",
-  "text2": "Enhance Your Investment Portfolio with the Most Promising Startups. Discover how our in-depth know-how and exclusive network can become your competitive advantage in the search and evaluation of the best investment opportunities in the startup and SME market. Start building a successful future for your investments today.",
-  "button": "CONTACT US FOR A PARTNERSHIP"
+    "title": "Invest in the Future with Confidence",
+    "text1": "Leveraging Our Expertise to Enrich Your Portfolio with the Most Innovative and Promising Enterprises in the Market. Contact Us to Discover How We Can Work Together to Turn Bold Visions into Successful Realities.",
+    "text2": "Enhance Your Investment Portfolio with the Most Promising Startups. Discover how our in-depth know-how and exclusive network can become your competitive advantage in the search and evaluation of the best investment opportunities in the startup and SME market. Start building a successful future for your investments today.",
+    "button": "CONTACT US FOR A PARTNERSHIP"
   },
   "investorTabs": {
-  "title": "Our Investment Services",
-  "startupEvaluationTitle": "Startup and SME Evaluation",
-  "startupEvaluationDescription": "Financial analysis and growth potential assessment. In-depth due diligence to minimize investment risks.",
-  "dealNegotiationTitle": "Deal Negotiation and Structuring",
-  "dealNegotiationDescription": "Assistance in negotiating investment terms. Support in structuring fair and effective agreements.",
-  "portfolioOptimizationTitle": "Portfolio Optimization",
-  "portfolioOptimizationDescription": "Advice on diversification and risk management. Performance analysis and exit strategies.",
-  "networkingOpportunitiesTitle": "Networking and Co-Investment Opportunities",
-  "networkingOpportunitiesDescription": "Access to an exclusive network of potential co-investors. Organization of networking events to facilitate synergies.",
-  "termSheetStudyTitle": "Customized Term Sheet Study",
-  "termSheetStudyDescription": "Drafting term sheets that accurately reflect investment agreements, balancing the interests of investors and entrepreneurs. Legal and strategic consulting to create documents that protect investments and optimize returns."
+    "title": "Our Investment Services",
+    "startupEvaluationTitle": "Startup and SME Evaluation",
+    "startupEvaluationDescription": "Financial analysis and growth potential assessment. In-depth due diligence to minimize investment risks.",
+    "dealNegotiationTitle": "Deal Negotiation and Structuring",
+    "dealNegotiationDescription": "Assistance in negotiating investment terms. Support in structuring fair and effective agreements.",
+    "portfolioOptimizationTitle": "Portfolio Optimization",
+    "portfolioOptimizationDescription": "Advice on diversification and risk management. Performance analysis and exit strategies.",
+    "networkingOpportunitiesTitle": "Networking and Co-Investment Opportunities",
+    "networkingOpportunitiesDescription": "Access to an exclusive network of potential co-investors. Organization of networking events to facilitate synergies.",
+    "termSheetStudyTitle": "Customized Term Sheet Study",
+    "termSheetStudyDescription": "Drafting term sheets that accurately reflect investment agreements, balancing the interests of investors and entrepreneurs. Legal and strategic consulting to create documents that protect investments and optimize returns."
   },
   "InvestorsCallToAction2": {
-  "text3": "Maximize the Return on Your Investments.",
-  "text1": "Discover how we can help you safely navigate the world of startup and SME investments, ensuring that every decision is informed, strategic, and optimized for long-term success.",
-  "text2": "Contact us for tailored consulting and start transforming your investment opportunities into successful realities.",
-  "button": "I WANT TO EXPLORE INVESTMENT OPPORTUNITIES"
+    "text3": "Maximize the Return on Your Investments.",
+    "text1": "Discover how we can help you safely navigate the world of startup and SME investments, ensuring that every decision is informed, strategic, and optimized for long-term success.",
+    "text2": "Contact us for tailored consulting and start transforming your investment opportunities into successful realities.",
+    "button": "I WANT TO EXPLORE INVESTMENT OPPORTUNITIES"
   },
   "advisorsTabs": {
-  "title": "OUR PLUSES+ for Professional Firms",
-  "startupEvaluationTitle": "Integrated Corporate Financial Consulting",
-  "startupEvaluationDescription": "Corporate financial consulting services that integrate seamlessly with the traditional offerings of an accounting firm, enhancing the value provided to clients.",
-  "dealNegotiationTitle": "Business Valuation and Access to Credit",
-  "dealNegotiationDescription": "Specialized support in business valuation and financial plan preparation to facilitate access to bank credit and other forms of financing.",
-  "portfolioOptimizationTitle": "Financial Planning and Risk Management",
-  "portfolioOptimizationDescription": "Advanced consulting in strategic financial planning.",
-  "networkingOpportunitiesTitle": "Financial Restructuring and Turnaround",
-  "networkingOpportunitiesDescription": "Assistance with financial restructuring, corporate turnaround, and debt reorganization for distressed companies.",
-  "termSheetStudyTitle": "Internationalization, Subsidized Finance, and M&A Buyer Search",
-  "termSheetStudyDescription": "Consulting on internationalization operations and access to subsidized financing and tax incentives for growth abroad. Private Equity."
+    "title": "OUR PLUSES+ for Professional Firms",
+    "startupEvaluationTitle": "Integrated Corporate Financial Consulting",
+    "startupEvaluationDescription": "Corporate financial consulting services that integrate seamlessly with the traditional offerings of an accounting firm, enhancing the value provided to clients.",
+    "dealNegotiationTitle": "Business Valuation and Access to Credit",
+    "dealNegotiationDescription": "Specialized support in business valuation and financial plan preparation to facilitate access to bank credit and other forms of financing.",
+    "portfolioOptimizationTitle": "Financial Planning and Risk Management",
+    "portfolioOptimizationDescription": "Advanced consulting in strategic financial planning.",
+    "networkingOpportunitiesTitle": "Financial Restructuring and Turnaround",
+    "networkingOpportunitiesDescription": "Assistance with financial restructuring, corporate turnaround, and debt reorganization for distressed companies.",
+    "termSheetStudyTitle": "Internationalization, Subsidized Finance, and M&A Buyer Search",
+    "termSheetStudyDescription": "Consulting on internationalization operations and access to subsidized financing and tax incentives for growth abroad. Private Equity."
   },
   "advisorsCallToAction": {
-  "title": "Expand Your Offering with Specialized Financial Consulting",
-  "text1": "Collaborate with us and bring the added value of specialized Capital Market consulting directly to your clients. We offer flexible counsel partnerships to integrate and enhance the services you already provide, ensuring comprehensive and tailored support for every business need.",
-  "text2": "Learn more about how we can work together for the success of your clients.",
-  "button": "I AM INTERESTED IN A COLLABORATION"
+    "title": "Expand Your Offering with Specialized Financial Consulting",
+    "text1": "Collaborate with us and bring the added value of specialized Capital Market consulting directly to your clients. We offer flexible counsel partnerships to integrate and enhance the services you already provide, ensuring comprehensive and tailored support for every business need.",
+    "text2": "Learn more about how we can work together for the success of your clients.",
+    "button": "I AM INTERESTED IN A COLLABORATION"
   },
   "advisorsHero": {
     "title": "MAA for PROFESSIONAL FIRMS"
   },
   "businessHero": {
-    "title": "MAA for PROFESSIONAL FIRMS",
-    "description1": "Our firm operates transparently with a consulting model based on the following steps:",
-    "description2": "• REQUEST FOR PROFESSIONAL ASSISTANCE AND CONTACT. This phase involves a contact request with the main information about the applicant and the services required attached.",
-    "description3": "• BRIEF DUE DILIGENCE: Once the potential to adequately assist the prospective client has been identified, we will request documentation to conduct a brief due diligence. The firm invests in the client with a remuneration based on a success fee and must therefore assess the feasibility of the fundrising operation. This step is essential as it represents for us an investment both in consulting and in building relationships. Only at the end of this phase, and after verifying the conditions, will we proceed with the signing of the mandate.",
-    "description4": "• PROFESSIONAL MANDATE PROPOSAL: If the due diligence yields positive results, a Professional Mandate will be proposed, which will include a proposal for both a RETAINER FEE and a SUCCESS FEE commensurate with the value of the case and the estimated success of the operation. The dedicated links explain in full transparency the criteria and reasons for applying the fees.",
-    "description5": "The mandate proposal will also include guidelines to set up for the success of the operation. The overall strategic plan will be discussed after the signing of the mandate."
+    "title": "Our Business Model",
+    "description": "Our firm operates transparently through a structured consultancy model that includes three key steps: an initial request for assistance with basic client information, a brief due diligence to assess feasibility, and a professional mandate proposal outlining the retainer and success fees. The mandate also includes strategic guidelines, with the full plan discussed after signing"
   },
   "businessAccordion": {
     "title": "RETAINER FEE",
-    "subtitle": "A Retainer Fee is a one-time payment requested upon signing the mandate. It depends on the degree of risk of the operation and the commitment to prepare the strategic plan for the mandate. Here are the reasons behind requesting a retainer fee:",
-    "transparencyAndProfessionalism": "Transparency and professionalism",
-    "transparencyDescription": "A retainer fee communicates to the client that the professional operates in a structured and transparent manner, with a constant commitment and clear planning, rather than relying solely on success-based fees, which may appear speculative.",
-    "evaluationCosts": "Sharing of initial evaluation costs",
-    "evaluationCostsDescription": "This refers to the work performed for the due diligence and evaluation of the operation before the mandate. No costs will be charged if the professional mandate is not finalized.",
-    "strategicPlanning": "Sharing of strategic planning costs",
-    "strategicPlanningDescription": "This refers to the work carried out before the mandate and will only be discussed after the mandate is signed. Again, no costs will be charged to the client if the mandate is not signed.",
-    "dedicatedCommitment": "Dedicated commitment and allocated resources",
-    "dedicatedCommitmentDescription": "The retainer fee ensures that the professional or team dedicates specific resources to the project. Fundraising is a process that requires time, expertise, and access to a qualified network of investors. The retainer fee covers these initial operating costs.",
-    "riskMitigation": "Risk mitigation for the professional",
-    "riskMitigationDescription": "Fundraising, especially for start-ups or complex projects, can take many months with no guarantee of success. The retainer fee helps cover part of the risk associated with the time and resources invested before achieving tangible results with the success fee.",
-    "fundraisingStrategy": "Development of fundraising strategy",
-    "fundraisingStrategyDescription": "Fundraising often requires the development of a tailored strategy, including market analysis, opportunity assessment, and preparation of promotional and financial materials. The retainer fee covers these strategic activities, which are crucial to the success of the fundraising.",
-    "ongoingCommitment": "Ongoing commitment",
-    "ongoingCommitmentDescription": "A fixed fee demonstrates mutual commitment between the client and the professional. It acts as a form of assurance that the client is genuinely motivated and involved in the process, reducing the risk of investing time and resources in a project that is not adequately supported by the client.",
-    "accessToNetwork": "Access to a network of contacts",
-    "accessToNetworkDescription": "MAA brings a consolidated network of investors or strategic partners. The retainer fee can also be justified as a cost to access this network, regardless of the final success.",
-    "iterativeProcess": "Iterative process and uncertain timelines",
-    "iterativeProcessDescription": "Fundraising may require multiple iterations and adjustments along the way. The retainer fee covers continuous assistance for as long as necessary, regardless of when the funds are raised."
+    "subtitle": "A Retainer Fee ensures transparency, shares evaluation costs, secures dedicated resources, mitigates risk, and covers strategic planning for successful fundraising.",
+    "retainerFeeVariables": "Retainer Fee Variables",
+    "retainerFeeVariablesDescription": "The Retainer Fee depends on risk level, complexity, duration, and industry. Higher fees apply to riskier, complex, or long-term projects requiring specialized expertise.",
+    "successFeeTitle": "Success Fee",
+    "successFeeDescription": "The Success Fee is a percentage of funds raised, influenced by project risk, industry, duration, investor type, and market conditions."
   },
   "businessAccordion2": {
-    "subtitle": "The determination of the retainer fee in a professional fundraising mandate depends on a series of variables that reflect the required commitment, the risk of the operation, and the level of preparation needed. Here are the main variables that can influence the retainer fee:",
-    "riskLevel": "Risk level of the operation",
-    "riskLevelDescription": "If the operation presents a high degree of risk, the retainer fee tends to be higher to cover the initial investment needed to develop an effective strategy. Riskier projects require more significant effort in terms of analysis and preparation.",
-    "complexity": "Complexity of the fundraising strategy",
-    "complexityDescription": "Operations that require the development of complex and tailored strategies, such as targeting different types of investors or markets, may justify a higher retainer fee. The time needed to plan the approach can be substantial.",
-    "companyPreparation": "Company’s level of preparation",
-    "companyPreparationDescription": "If the company is already well-structured and has ready materials like a business plan, financial model, and investor presentations, the retainer fee might be lower. On the contrary, if the professional needs to assist in creating these elements, the fee will be higher.",
-    "estimatedDuration": "Estimated process duration",
-    "estimatedDurationDescription": "A longer fundraising process requires ongoing commitment from the professional. The longer the estimated duration, the higher the retainer fee to cover the resources used over time.",
-    "industry": "Industry of the company",
-    "industryDescription": "Highly specialized or innovative sectors, such as advanced technology, biotech, or renewable energy, may require specialized expertise and access to a particular network of investors, which increases the cost of the retainer fee.",
-    "investorType": "Type of investors to involve",
-    "investorTypeDescription": "The type of target investors, such as venture capital, institutional funds, or business angels, can influence the cost of the retainer fee. Involving institutional investors often requires more preparation and complex negotiations.",
-    "clientNetwork": "State of the client’s network",
-    "clientNetworkDescription": "If the client already has a network of potential investors or has started the process, the retainer fee might be more contained. If, instead, the professional has to build and manage the entire network of contacts and relationships, the retainer fee will be higher.",
-    "dedicatedCommitment": "Dedicated commitment and allocated resources",
-    "dedicatedCommitmentDescription": "If the professional or team needs to dedicate significant resources and time to the project, the retainer fee will be higher to cover the initial operational costs necessary to ensure the mandate’s effectiveness.",
-    "operationSize": "Size of the operation",
-    "operationSizeDescription": "Smaller operations may require a relatively high retainer fee to compensate for the work done, as the success fee, tied to smaller amounts, may not be sufficient to cover the overall costs.",
-    "exclusivity": "Exclusivity of the mandate",
-    "exclusivityDescription": "If the mandate is exclusive, the retainer fee might be lower since the professional is confident about completing the project without competition. In a non-exclusive context, however, the fee could be higher to compensate for the risk of not completing the operation."
+    "subtitle": "The retainer fee in a fundraising mandate depends on key factors such as risk, complexity, duration, and company readiness.",
+    "riskAndComplexity": "Risk and complexity",
+    "riskAndComplexityDescription": "Higher risk and complex strategies require a higher retainer fee to cover planning and execution efforts.",
+    "preparationAndDuration": "Company readiness and process duration",
+    "preparationAndDurationDescription": "Well-prepared companies with ready materials may reduce costs, while long or unstructured processes increase the fee.",
+    "industryAndInvestors": "Industry and investor type",
+    "industryAndInvestorsDescription": "Specialized sectors and institutional investors demand more preparation and networking, raising the retainer fee.",
+    "networkAndCommitment": "Client network and exclusivity",
+    "networkAndCommitmentDescription": "An existing investor network or exclusive mandate may lower the fee, while a broader search increases costs."
   },
   "businessAccordion3": {
     "title": "SUCCESS FEE",
-    "subtitle": "The Success fee is a variable payment that is only given to the professional if the fundraising is successful, meaning when the planned financing is completed. This type of compensation aligns the interests of the client and the professional, as both benefit from the success of the operation.\n\nNormally, the success fee is calculated as a percentage of the total amount raised, and in venture capital or start-up fundraising contexts, it varies based on the following factors:\n\nThe percentage of the success fee in a fundraising process can vary depending on several variables that reflect the complexity, risk, and value of the project. Here are some of the main factors that can influence the percentage:",
-    "totalFundraisingAmount": "Total fundraising amount",
-    "totalFundraisingAmountDescription": "If the fundraising involves large amounts, the success fee percentage might be lower (e.g., 3%-5%), as the total compensation will still be significant. For smaller amounts, the percentage could be higher to compensate for the work done.",
-    "projectRiskLevel": "Project risk level",
-    "projectRiskLevelDescription": "A high-risk project or an early-stage start-up might justify a higher success fee (e.g., 6%-10%), as the risk of not completing the fundraising is greater, and the professional must invest more resources.",
-    "industry": "Industry",
-    "industryDescription": "More innovative or complex sectors (e.g., advanced technology, biotech) may require specific expertise and a niche network of investors, leading to a higher success fee, while more traditional and less risky sectors may require a lower percentage.",
-    "maturityLevel": "Maturity level of the company",
-    "maturityLevelDescription": "Established companies or those with a validated business model tend to have a lower success fee percentage than early-stage start-ups, which may face more obstacles in attracting capital.",
-    "estimatedProcessDuration": "Estimated process duration",
-    "estimatedProcessDurationDescription": "Fundraising processes that require long durations and multiple iterations with investors may result in a higher success fee to compensate for the prolonged effort. Conversely, shorter processes or those involving already interested investors may justify a lower percentage.",
-    "typeOfInvestors": "Type of investors involved",
-    "typeOfInvestorsDescription": "If fundraising targets institutional investors or venture capital funds with long decision-making processes and complex negotiations, the success fee may be higher compared to those involving private or angel investors with faster processes.",
-    "preparationProgress": "Preparation progress",
-    "preparationProgressDescription": "If the company already has well-developed presentation materials (business plan, financial model) and an initial network of investor contacts, the fundraising process will be smoother, potentially leading to a lower success fee. If, instead, significant intervention is needed to structure the company and prepare it for fundraising, the fee may be higher.",
-    "exclusivity": "Exclusivity or non-exclusivity of the mandate",
-    "exclusivityDescription": "If the fundraising mandate is exclusive, the professional may offer a lower success fee percentage, while in a non-exclusive context, the fee may be higher to compensate for the risk of not completing the operation.",
-    "marketConditions": "Macroeconomic and market conditions",
-    "marketConditionsDescription": "General market conditions and the availability of capital for investment can impact the ease or difficulty of raising funds, influencing the success fee percentage."
+    "subtitle": "The success fee is a percentage-based payment given only if fundraising succeeds, aligning the interests of the client and professional. The percentage varies based on key factors:",
+    "fundraisingAmountAndRisk": "Fundraising amount and risk level",
+    "fundraisingAmountAndRiskDescription": "Larger amounts tend to have lower fees (3%-5%), while high-risk or early-stage projects justify higher fees (6%-10%).",
+    "industryAndMaturity": "Industry and company maturity",
+    "industryAndMaturityDescription": "Innovative sectors (biotech, tech) and early-stage startups may require higher fees due to complexity and investor challenges.",
+    "processDurationAndInvestors": "Process duration and investor type",
+    "processDurationAndInvestorsDescription": "Long, complex fundraising efforts or institutional investors with slow decision-making increase fees.",
+    "preparationAndExclusivity": "Preparation and exclusivity",
+    "preparationAndExclusivityDescription": "Well-prepared companies with investor contacts may lower fees, while non-exclusive mandates or unstructured processes raise costs.",
+    "marketConditions": "Market conditions",
+    "marketConditionsDescription": "Economic factors and investment availability influence success fee percentages."
   }
 }

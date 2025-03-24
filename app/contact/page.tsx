@@ -2,6 +2,7 @@
 
 import React from "react";
 import ContactForm from "./components/ContactForm";
+import EventForm from "./components/EventForm";
 
 const ContactPage = () => {
   return (
@@ -44,6 +45,13 @@ const ContactPage = () => {
           <div className="w-full md:w-1/2">
             <ContactForm />
           </div>
+        </div>
+
+        <div className="w-full max-w-7xl mx-auto mt-16 p-8 md:p-16">
+          <h2 className="text-center text-4xl sm:text-6xl md:text-7xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-r from-black to-primary-light dark:from-border-dark dark:to-textMain-dark">
+            Book an Appointment
+          </h2>
+          <EventForm />
         </div>
       </div>
     </div>

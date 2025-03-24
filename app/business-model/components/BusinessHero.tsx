@@ -9,7 +9,7 @@ export default function BusinessHero() {
   return (
     <div className="w-full py-10 flex items-center justify-center overflow-x-hidden overflow-y-visible bg-white text-primary-light dark:bg-primary-dark dark:text-white">
       {/* Contenedor principal */}
-      <div className="z-10 w-full max-w-7xl p-8 xl:p-0 mx-auto text-center">
+      <div className="z-10 w-full max-w-7xl p-8 xl:p-0 mx-auto text-center lg:max-w-[70%] xl:max-w-[50%]">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -19,50 +19,14 @@ export default function BusinessHero() {
           {t("businessHero.title")}
         </motion.h1>
 
-        {/* Nuevo contenido */}
+        {/* Descripciones */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.2 }}
-          className="text-base font-bold text-left sm:text-lg md:text-2xl leading-relaxed mx-auto max-w-6xl"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
         >
-          {t("businessHero.description1")}
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2, delay: 0.4 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
-        >
-          {t("businessHero.description2")}
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2, delay: 0.6 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
-        >
-          {t("businessHero.description3")}
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2, delay: 0.8 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
-        >
-          {t("businessHero.description4")}
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2, delay: 1 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
-        >
-          {t("businessHero.description5")}
+          {t("businessHero.description")}
         </motion.p>
       </div>
     </div>

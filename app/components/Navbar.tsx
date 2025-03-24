@@ -35,8 +35,8 @@ const MainNavbar: React.FC = () => {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} isBlurred className="bg-primary-light dark:bg-primary-dark">
-      <NavbarContent>
+    <Navbar onMenuOpenChange={setIsMenuOpen} isBlurred maxWidth="xl" className="bg-primary-light dark:bg-primary-dark">
+      <NavbarContent className="w-full max-w-screen-xl mx-auto px-4 xl:px-0">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className={`lg:hidden ${resolvedTheme === "light" ? "text-textMain-light" : "text-textMain-dark"}`}
@@ -57,11 +57,11 @@ const MainNavbar: React.FC = () => {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden lg:flex gap-4" justify="center">
+      <NavbarContent className="hidden lg:flex gap-4 max-w-screen-xl mx-auto px-4 xl:px-0" justify="center">
         {menuItems.map(({ key, href }) => (
           <NavbarItem key={key}>
             <Link
-              className={`text-textMain-light dark:text-textMain-dark`}
+              className="text-textMain-light dark:text-textMain-dark"
               href={href}
             >
               {t(`navbar.${key}`)}
@@ -70,7 +70,7 @@ const MainNavbar: React.FC = () => {
         ))}
       </NavbarContent>
 
-      <NavbarContent justify="end">
+      <NavbarContent justify="end" className="max-w-screen-xl mx-auto px-4 xl:px-0">
         <ThemeSwitcher />
         <LanguageSwitcher />
       </NavbarContent>

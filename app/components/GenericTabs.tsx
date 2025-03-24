@@ -86,7 +86,7 @@ export default function GenericTabs({ tabs, titleKey }: TabsProps) {
                 variant="bordered"
               >
                 {(item) => (
-                  <Tab key={item.id} title={t(item.labelKey)} className="text-center mx-5">
+                  <Tab key={item.id} title={t(item.labelKey)} className="text-center mx-5 text-lg">
                     <Card className="w-full p-6 bg-secondary-light dark:bg-secondary-dark border border-border-light dark:border-border-dark shadow-lg rounded-xl overflow-hidden">
                       <CardBody className="text-black dark:text-textMain-dark">
                         <ul className="list-disc list-inside space-y-2">
