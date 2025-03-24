@@ -18,7 +18,7 @@ export default function StartupInvestorsHero() {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 w-full max-w-7xl p-8 xl:p-0 mx-auto text-center">
+      <div className="relative z-10 w-full max-w-7xl p-8 xl:p-0 mx-auto text-center lg:max-w-[75%] xl:max-w-[50%]">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -41,7 +41,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.4 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto"
         >
           {t("startupInvestorsHero.description1")}
         </motion.p>
@@ -50,7 +50,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.6 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto mt-3"
         >
           {t("startupInvestorsHero.description2")}
         </motion.p>
@@ -59,7 +59,7 @@ export default function StartupInvestorsHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 2, delay: 0.8 }}
-          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto max-w-6xl mt-3"
+          className="text-base text-left sm:text-lg md:text-xl leading-relaxed mx-auto mt-3"
         >
           {t("startupInvestorsHero.description3")}
         </motion.p>
